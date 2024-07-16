@@ -1,6 +1,5 @@
 # Quantum Chemical Data Sets and Databases for Machine Learning Potentials
 
-This dashboard provides an overview of prominent quantum chemistry data sets and databases, along with links for further exploration. 
 
 This GitHub dashboard provides links and brief descriptions for various quantum chemistry datasets mentioned in the paper. 
 
