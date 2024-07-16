@@ -1,4 +1,4 @@
-# datasets_and_databases_4_MLPs
+# Quantum Chemical Data Sets and Databases for Machine Learning Potentials
 
 This dashboard provides an overview of prominent quantum chemistry data sets and databases, along with links for further exploration. 
 
