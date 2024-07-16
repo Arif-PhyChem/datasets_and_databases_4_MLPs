@@ -50,82 +50,81 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Description**: Focuses on the energetic interplay between drug-like small molecules and proteins.
 - **Data Accessibility**: [SPICE dataset](https://github.com/openforcefield/spice-dataset)
 
-
-### 1. PubChemQC PM6
+## PubChemQC PM6
 - **Description**: PM6 data for 221 million molecules, including optimized geometries and electronic structures.
 - **Data Access**: [PubChemQC PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/pm6_data_sets.html)
 
-### 2. PubChemQC B3LYP/6-31G*//PM6
+## PubChemQC B3LYP/6-31G*//PM6
 - **Description**: Electronic properties for 85,938,443 molecules using B3LYP/6-31G* basis set.
 - **Data Access**: [PubChemQC B3LYP/6-31G*//PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_pm6_data_sets.html)
 
-### 3. bigQM7ω
+## bigQM7ω
 - **Description**: Ground-state properties and electronic spectra for over 12,880 molecules.
 - **Data Access**: 
   - [Core Data](https://moldisgroup.github.io/bigQM7w)
   - [NOMAD Repository](https://dx.doi.org/10.17172/NOMAD/2021.09.30-1)
   - [Data-mining Platform](https://moldis.tifrh.res.in/index.html)
 
-### 4. QMugs
+## QMugs
 - **Description**: Quantum-mechanical properties of over 665,000 drug-like molecules.
 - **Data Access**: [QMugs](https://doi.org/10.3929/ethz-b-000482129)
 
-### 5. OrbNet Denali
+## OrbNet Denali
 - **Description**: Data set used to develop a machine learning potential for electronic structure calculations, includes over 2.3 million molecules.
 - **Data Access**: [OrbNet Denali](https://doi.org/10.6084/m9.figshare.14883867)
 
-### 6. MD17 and its later versions
+## MD17 and its later versions
 - **Description**: Benchmark data sets for assessing force fields in MD simulations, includes ten small organic molecules.
 - **Data Access**:
   - [MD17 Data Sets](http://www.sgdml.org/#data_sets)
   - [rMD17 Data Set](https://dx.doi.org/10.6084/m9.figshare.12672038)
 
-### 7. xxMD17
+## xxMD17
 - **Description**: Extended MD data set including nonadiabatic trajectories for excited electronic states.
 - **Data Access**:
   - [GitHub Repository](https://github.com/zpengmei/xxMD)
   - [Zenodo Repository](https://doi.org/10.5281/zenodo.10393859)
 
-### 8. MD22
+## MD22
 - **Description**: Comprehensive benchmark collection featuring MD trajectories for various biomolecules and supramolecular structures.
 - **Data Access**: [MD22 Data Set](http://www.sgdml.org/#data_sets)
 
-### WS22 Database
+## WS22 Database
 - **Description**: A comprehensive database focusing on ten organic molecules with up to 22 atoms, including 1.18 million geometries. Provides various quantum mechanical properties.
 - **Link**: [WS22 Database on Zenodo](https://doi.org/10.5281/zenodo.7032334)
 
-### VIB5 Database
+## VIB5 Database
 - **Description**: A collection of high-quality ab initio quantum chemical data for five small polyatomic molecules with significant astrophysical relevance.
 - **Link**: [VIB5 Database on Figshare](https://doi.org/10.6084/m9.figshare.1690328879)
 
-### ANI-1 Dataset
+## ANI-1 Dataset
 - **Description**: A comprehensive collection of non-equilibrium DFT total energy calculations for organic molecules, used to train the ANI-1 potential.
 - **Link**: [ANI-1 Dataset on Figshare](https://doi.org/10.6084/m9.figshare.5287732.v1)
 - **GitHub Repository**: [ANI-1 Dataset on GitHub](https://github.com/isayev/ANI1_data)
 
-### ANI-1x and ANI-1ccx Datasets
+## ANI-1x and ANI-1ccx Datasets
 - **Description**: Extensive collections of millions of organic molecule conformations, used to train the ANI-1x and ANI-1ccx ML potentials.
 - **Link**: [ANI-1x and ANI-1ccx Datasets on Figshare](https://doi.org/10.6084/m9.figshare.c.4712477)
 - **GitHub Repository**: [ANI-1x and ANI-1ccx Datasets on GitHub](https://github.com/aiqm/ANI1x_datasets)
 
-### Transition1x Dataset
+## Transition1x Dataset
 - **Description**: A dataset that incorporates data from transition regions, empowering ML models to learn features essential for accurate reaction barrier prediction.
 - **Link**: (Placeholder for Transition1x dataset link)
 
-### QM-sym Database
+## QM-sym Database
 - **Description**: A database documenting the C$_n$h symmetry for each molecule within its vast repository, including 135,000 structures.
 - **GitHub Repository**: [QM-sym Database on GitHub](https://github.com/XI-Lab/QM-sym-database)
 - **Link**: [QM-sym Database on Figshare](https://doi.org/10.6084/m9.Figshare.9638093)
 
-### QM-symex Database
+## QM-symex Database
 - **Description**: A database dedicated to excited-state information, providing detailed insights into parameters like oscillator strength and transition energy.
 - **Link**: [QM-symex Database on Figshare](https://doi.org/10.6084/m9.Figshare.12815276)
 
-### $\nabla^2$DFT Dataset
+## $\nabla^2$DFT Dataset
 - **Description**: A dataset providing energies, forces, and various other properties calculated at a reasonably accurate DFT level for around 2 million drug-like molecules.
 - **GitHub Repository**: [nablaDFT Dataset on GitHub](https://github.com/AIRI-Institute/nablaDFT)
 
-### Other Datasets
+## Other Datasets
 - **C7O2H10-17**: Molecular dynamics trajectories for 113 randomly selected isomers of C7O2H10.
   - **Link**: (Placeholder for C7O2H10-17 dataset link)
 
