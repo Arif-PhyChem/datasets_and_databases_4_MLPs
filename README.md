@@ -3,8 +3,6 @@
 
 This GitHub dashboard provides links and brief descriptions for various quantum chemistry datasets mentioned in the paper. 
 
-# Quantum Chemistry Datasets
-
 ## QM9
 - **Description**: A collection of molecular structures and properties for 134,000 small organic molecules.
 - **Data Accessibility**: [QM9 on Figshare](https://doi.org/10.6084/m9.figshare.978904)
