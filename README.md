@@ -110,7 +110,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 ## 25. Transition1x Dataset
 - **Description**: A dataset that incorporates data from transition regions, empowering ML models to learn features essential for accurate reaction barrier prediction.
-- **Link**: (Placeholder for Transition1x dataset link)
+- **Link**: 
 
 ## 26. QM-sym Database
 - **Description**: A database documenting the C$_n$h symmetry for each molecule within its vast repository, including 135,000 structures.
