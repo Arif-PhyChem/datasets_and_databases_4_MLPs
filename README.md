@@ -47,6 +47,11 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Description**: Focuses on the energetic interplay between drug-like small molecules and proteins.
 - **Data Accessibility**: [SPICE dataset](https://github.com/openforcefield/spice-dataset)
 
+## PubChemQC Database
+- **Description**: Contains electronic structures for approximately 3 million molecules including both ground state and low-lying excited states calculations. 
+- **Data Accessibility**: [PubChemQC Database](https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_2017.html)
+
+If you need anything else, feel free to ask!
 ## PubChemQC PM6
 - **Description**: PM6 data for 221 million molecules, including optimized geometries and electronic structures.
 - **Data Access**: [PubChemQC PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/pm6_data_sets.html)
