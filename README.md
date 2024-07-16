@@ -127,10 +127,10 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 ## 29. Other Datasets
 - **C7O2H10-17**: Molecular dynamics trajectories for 113 randomly selected isomers of C7O2H10.
-  - **Link**: (Placeholder for C7O2H10-17 dataset link)
+  - **Link**: 
 
 - **ISO17**: Extends the C7O2H10-17 dataset with 129 isomers and additional data.
-  - **Link**: (Placeholder for ISO17 dataset link)
+  - **Link**: 
 
 - **TensorMol ChemSpider**: Contains potential energies and forces for 3 million conformations from 15,000 different molecules.
   - **Link**: [TensorMol ChemSpider](http://www.chemspider.com/)
