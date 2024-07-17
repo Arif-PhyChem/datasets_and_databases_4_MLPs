@@ -15,7 +15,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Data Accessibility**: [MultiXC-QM9 on Figshare](https://doi.org/10.11583/DTU.c.6185986.v3)
 
 ## 4. GW-QM9
-- **Description**: Provides highly accurate frontier orbital energies and ionization potential/electron affinity values for 134,000 molecules from QM9 using the GW method and Gaussian software.
+- **Description**: Provides highly accurate frontier orbital energies and ionization potential/electron affinity values for 134,000 molecules from QM9 using the GW method implemented in CP2K.
 - **Data Accessibility**: [GW-QM9 on Figshare](https://doi.org/10.6084/m9.figshare.21610077.v1)
 
 ## 5. QM7-X
