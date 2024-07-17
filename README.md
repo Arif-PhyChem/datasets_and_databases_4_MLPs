@@ -36,7 +36,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 ## 9. PC9
 - **Description**: A counterpart to QM9, containing 99,234 distinct molecules from the PubChemQC project, calculated using DFT at the B3LYP/6-31G* level with the Gaussian software.
-- **Data Accessibility**: [PC9 on Figshare](https://doi.org/10.6084/m9.figshare.c.4351631.v1) | [PC9 on Zenodo](https://doi.org/10.5281/zenodo.1185282)
+- **Data Accessibility**: [PC9 on Figshare](https://doi.org/10.6084/m9.figshare.9033977.v1) | [PC9 on Zenodo](https://doi.org/10.5281/zenodo.1185282)
 
 ## 10. QM1B
 - **Description**: A large dataset of one billion training examples for machine learning applications in quantum chemistry, focusing on molecules with 9-11 heavy atoms, calculated using DFT with the Gaussian software.
