@@ -3,15 +3,15 @@
 This GitHub dashboard provides links and brief descriptions for various quantum chemistry datasets mentioned in the paper.
 
 ## 1. QM9
-- **Description**: A collection of molecular structures and properties for 134,000 small organic molecules, generated using density functional theory (DFT) at the B3LYP/6-31G(2df,p) level with the Gaussian software.
+- **Description**: A collection of molecular structures and properties for 134,000 small organic molecules, generated using density functional theory (DFT) at the B3LYP/6-31G(2df,p) level with the Gaussian 09 software.
 - **Data Accessibility**: [QM9 on Figshare](https://doi.org/10.6084/m9.figshare.978904)
 
 ## 2. QM9-G4MP2
-- **Description**: Provides highly accurate G4MP2 calculations for the molecular structures within QM9, focusing on small organic molecules, using the Gaussian software.
+- **Description**: Provides highly accurate G4MP2 calculations for the molecular structures within QM9, focusing on small organic molecules, using the Gaussian 16 software.
 - **Data Accessibility**: [QM9-G4MP2 on Figshare](https://doi.org/10.6084/m9.figshare.c.4351631.v1)
 
 ## 3. MultiXC-QM9
-- **Description**: Expands upon QM9 by including data from 76 different DFT functionals alongside three basis sets and a semi-empirical method (GFN2-XTB), for small organic molecules, using the Gaussian software.
+- **Description**: Expands upon QM9 by including data from 76 different DFT functionals alongside three basis sets and a semi-empirical method (GFN2-XTB), for small organic molecules, using the SCM software package.
 - **Data Accessibility**: [MultiXC-QM9 on Figshare](https://doi.org/10.11583/DTU.c.6185986.v3)
 
 ## 4. GW-QM9
