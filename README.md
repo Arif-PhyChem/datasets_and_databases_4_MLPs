@@ -36,7 +36,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 ## 9. PC9
 - **Description**: A counterpart to QM9, containing 99,234 distinct molecules from the PubChemQC project, calculated using DFT at the B3LYP/6-31G* level with the Gaussian software.
-- **Data Accessibility**: [PC9 on Figshare](https://doi.org/10.6084/m9.figshare.9033977.v1) | [PC9 on Zenodo](https://doi.org/10.5281/zenodo.1185282)
+- **Data Accessibility**: [PC9 on Figshare](https://doi.org/10.6084/m9.figshare.9033977.v1) | [PC9 on Zenodo](https://doi.org/10.5281/zenodo.3588370)
 
 ## 10. QM1B
 - **Description**: A large dataset of one billion training examples for machine learning applications in quantum chemistry, focusing on molecules with 9-11 heavy atoms, calculated using DFT with the Gaussian software.
@@ -44,7 +44,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 ## 11. SPICE
 - **Description**: Focuses on the energetic interplay between drug-like small molecules and proteins, using a combination of DFT and molecular dynamics simulations with the Gaussian software.
-- **Data Accessibility**: [SPICE dataset](https://github.com/openforcefield/spice-dataset)
+- **Data Accessibility**: [Zenodo](https://doi.org/10.5281/zenodo.7338495) | [GitHub](https://github.com/openmm/spice-dataset)
 
 ## 12. PubChemQC Database
 - **Description**: Contains electronic structures for approximately 3 million molecules, optimized using DFT at the B3LYP/6-31G* level for ground states and TD-DFT with the B3LYP functional for low-lying excited states, using the Gaussian software.
@@ -52,11 +52,11 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 ## 13. PubChemQC PM6
 - **Description**: PM6 data for 221 million molecules, including optimized geometries and electronic structures using the MOPAC software.
-- **Data Access**: [PubChemQC PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/pm6_data_sets.html)
+- **Data Access**: [PubChemQC PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/pm6_datasets.html)
 
 ## 14. PubChemQC B3LYP/6-31G*//PM6
 - **Description**: Electronic properties for 85,938,443 molecules using DFT with the B3LYP/6-31G* basis set, following initial geometry optimization with the PM6 method, using the Gaussian and MOPAC software.
-- **Data Access**: [PubChemQC B3LYP/6-31G*//PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_pm6_data_sets.html)
+- **Data Access**: [PubChemQC B3LYP/6-31G*//PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_pm6_datasets.html)
 
 ## 15. bigQM7ω
 - **Description**: Ground-state properties and electronic spectra for over 12,880 molecules calculated using DFT and TDDFT with various functionals and basis sets, using the Gaussian software.
@@ -71,7 +71,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 ## 17. OrbNet Denali
 - **Description**: Data set used to develop a machine learning potential for electronic structure calculations, includes over 2.3 million molecules, calculated using various levels of theory including DFT with the Gaussian software.
-- **Data Access**: [OrbNet Denali](https://doi.org/10.6084/m9.figshare.14883867)
+- **Data Access**: [OrbNet Denali on Figshare](https://doi.org/10.6084/m9.figshare.14883867)
 
 ## 18. MD17 and its later versions
 - **Description**: Benchmark data sets for assessing force fields in MD simulations, includes ten small organic molecules, calculated using DFT at the PBE/def2-SVP level with the Gaussian software.
@@ -102,7 +102,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
  A comprehensive collection of non-equilibrium DFT total energy calculations for organic molecules, used to train the ANI-1 potential, calculated using the PBE/6-31G* level with the Gaussian software.
 - **Data Access**: [ANI-1 Dataset on Figshare](https://doi.org/10.6084/m9.figshare.5287732.v1)
-- **GitHub Repository**: [ANI-1 Dataset on GitHub](https://github.com/isayev/ANI1_data)
+- **GitHub Repository**: [ANI-1 Dataset on GitHub](https://github.com/isayev/ANI1_dataset)
 
 ## 24. ANI-1x and ANI-1ccx Datasets
 - **Description**: Extensive collections of millions of organic molecule conformations, used to train the ANI-1x and ANI-1ccx ML potentials, calculated using the DFTB3LYP and CCSD(T) methods with the Gaussian software.
