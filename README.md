@@ -28,11 +28,11 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 ## 7. QM7b
 - **Description**: An extension of QM7, providing data on 7,211 small organic molecules including 14 properties such as atomization energy, static polarizability, and frontier orbital eigenvalues, calculated using DFT and other quantum chemistry methods with Gaussian software.
-- **Data Accessibility**: [QM7b supplementary material](http://stacks.iop.org/NJP/15/095003/mmedia)
+- **Data Accessibility**: [Supplementary material of the reference paper](http://stacks.iop.org/NJP/15/095003/mmedia)
 
 ## 8. QM8
 - **Description**: Provides electronic spectra data for approximately 21,786 small organic molecules, derived from QM9, calculated using TDDFT and other excited-state methods with the Gaussian software.
-- **Data Accessibility**: [QM8 supplementary material](https://www.nature.com/articles/s41467-023-39451-8)
+- **Data Accessibility**: [Supplementary material of the reference paper](https://pubs.aip.org/jcp/article-supplement/73278/zip/084111_1_supplements/)
 
 ## 9. PC9
 - **Description**: A counterpart to QM9, containing 99,234 distinct molecules from the PubChemQC project, calculated using DFT at the B3LYP/6-31G* level with the Gaussian software.
