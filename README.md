@@ -137,7 +137,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **ISO17**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT at the B3LYP/6-31G(d) level with the Gaussian software.
   - **Data Access**: [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
-- **TensorMol ChemSpider**: Contains potential energies and forces for 3 million conformations from 15,000 different molecules, calculated using the TensorMol software.
+- **TensorMol ChemSpider**: Contains potential energies and forces for 3 million conformations from 15,000 different molecules, calculated using the QChem software.
   - **Data Access**: [TensorMol](https://tensormol.readthedocs.io/en/latest/Tutorials.html#)
 
 ## Contributions
