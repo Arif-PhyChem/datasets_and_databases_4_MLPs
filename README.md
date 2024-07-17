@@ -138,7 +138,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
   - **Data Access**: [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
 - **TensorMol ChemSpider**: Contains potential energies and forces for 3 million conformations from 15,000 different molecules, calculated using the TensorMol software.
-  - **Data Access**: [TensorMol][https://tensormol.readthedocs.io/en/latest/Tutorials.html#]
+  - **Data Access**: [TensorMol](https://tensormol.readthedocs.io/en/latest/Tutorials.html#)
 
 ## Contributions
 
