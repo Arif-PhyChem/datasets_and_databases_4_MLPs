@@ -113,8 +113,8 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 ## 25. Transition1x Dataset
 - **Description**: A dataset that incorporates data from transition regions, empowering ML models to learn features essential for accurate reaction barrier prediction, calculated using DFT at the PBE/6-31G* level with the Gaussian software.
 - **Data Access**:
-  -[Transition1x Dataset on Figshare](https://doi.org/10.6084/m9.figshare.19614657.v4)
-  -[Dataloaders and example scripts on GitHub](https://gitlab.com/matschreiner/T1x)
+  - [Transition1x Dataset on Figshare](https://doi.org/10.6084/m9.figshare.19614657.v4)
+  - [Dataloaders and example scripts on GitHub](https://gitlab.com/matschreiner/T1x)
 
 ## 26. QM-sym Database
 - **Description**: A database documenting the C$_n$h symmetry for each molecule within its vast repository, including 135,000 structures, calculated using DFT at the B3LYP/6-31G(d) level with the Gaussian software.
