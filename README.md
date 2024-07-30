@@ -19,7 +19,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Data Accessibility**: [GW-QM9 on Figshare](https://doi.org/10.6084/m9.figshare.21610077.v1)
 
 ## 5. QM7-X
-- **Description**: A comprehensive data set of 4.2 million structures of small organic molecules containing up to seven non-hydrogen atoms, including 42 properties per molecule, calculated using DFT with various functionals and basis sets, implemented in the Gaussian software.
+- **Description**: A comprehensive data set of 4.2 million structures of small organic molecules containing up to seven non-hydrogen atoms, including 42 properties per molecule, calculated using PBE0+MBD level of theory with FHI-aims code.
 - **Data Accessibility**: [QM7-X on Zenodo](https://doi.org/10.5281/zenodo.4288677)
 
 ## 6. QM7
