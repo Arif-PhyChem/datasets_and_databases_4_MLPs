@@ -133,7 +133,8 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
   - **Data Access**: [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
-- **ISO17**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT (PBE functional) with FHI-aims software.
+- **ISO17**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT (PBE functional, GGA and Tkatchenko
+Scheffler (TS) van der Waals correction method) with FHI-aims software.
   - **Data Access**: [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
 - **TensorMol ChemSpider**: Energies for 3 million conformations from 15,000 different molecules, calculated using the QChem software.
