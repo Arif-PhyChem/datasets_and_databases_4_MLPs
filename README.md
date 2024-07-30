@@ -43,11 +43,11 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Data Accessibility**: [Zenodo](https://doi.org/10.5281/zenodo.7338495) | [GitHub](https://github.com/openmm/spice-dataset)
 
 ## 12. PubChemQC Database
-- **Description**: Contains electronic structures for approximately 3 million molecules, optimized using DFT at the B3LYP/6-31G* level for ground states and TD-DFT with the B3LYP functional and 6-31+G* basis set for low-lying excited states. Software used are Firefly, SMASH and GAMESS.
+- **Description**: Contains electronic structures for approximately 3 million molecules, optimized using DFT at the B3LYP/6-31G* level for ground states and TD-DFT with the B3LYP functional and 6-31+G* basis set for low-lying excited states. A list of software are utilized which are Firefly, SMASH and GAMESS.
 - **Data Accessibility**: [PubChemQC Database](https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_2017.html)
 
 ## 13. PubChemQC PM6
-- **Description**: PM6 data for 221 million molecules, including optimized geometries and electronic structures using the MOPAC software.
+- **Description**: PM6 data for 221 million molecules, including optimized geometries and electronic structures using the Gaussian 09.
 - **Data Access**: [PubChemQC PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/pm6_datasets.html)
 
 ## 14. PubChemQC B3LYP/6-31G*//PM6
