@@ -112,7 +112,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Description**: A collection of 9.6 million data points, each meticulously generated using DFT calculations with forces and energies for a staggering 10,000 organic reactions. These calculations employed the $\omega$B97x/6-31G(d) level of theory and utilized NEB and CINEB exploration technique. The computations were performed using software such as ASE and ORCA.
 - **Data Access**:
   - [Transition1x Dataset on Figshare](https://doi.org/10.6084/m9.figshare.19614657.v4)
-  - [Dataloaders and example scripts on GitHub](https://gitlab.com/matschreiner/T1x)
+  - [Dataloaders and example scripts on GitLab](https://gitlab.com/matschreiner/T1x)
 
 ## 26. QM-sym Database
 - **Description**: A database documenting the C$_n$h symmetry for each molecule within its vast repository, including 135,000 structures, calculated using DFT at the B3LYP/6-31G(2df,p) level with the Gaussian 09 software.
