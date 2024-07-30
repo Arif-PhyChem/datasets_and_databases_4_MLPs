@@ -51,11 +51,11 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Data Access**: [PubChemQC PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/pm6_datasets.html)
 
 ## 14. PubChemQC B3LYP/6-31G*//PM6
-- **Description**: Electronic properties for 85,938,443 molecules using DFT with the B3LYP/6-31G* basis set, following initial geometry optimization with the PM6 method, using the Gaussian and MOPAC software.
+- **Description**: Electronic properties for 85,938,443 molecules using DFT with the B3LYP/6-31G* basis set, following initial geometry optimization with the PM6 method, using the GAMESS software.
 - **Data Access**: [PubChemQC B3LYP/6-31G*//PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_pm6_datasets.html)
 
 ## 9. PC9
-- **Description**: A counterpart to QM9, containing 99,234 distinct molecules from the PubChemQC project, calculated using DFT at the B3LYP/6-31G* level with the Gaussian software.
+- **Description**: A counterpart to QM9, 99,234 distinct molecules, a subset of PubChemQC project selected based on the limitations of QM9 dataset (size of up to 9 heavy atoms in the range C, N, O and F).
 - **Data Accessibility**: [PC9 on Figshare](https://doi.org/10.6084/m9.figshare.9033977.v1) | [PC9 on Zenodo](https://doi.org/10.5281/zenodo.3588370)
 
 ## 15. bigQM7ω
@@ -66,75 +66,74 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
   - [Data-mining Platform](https://moldis.tifrh.res.in/index.html)
 
 ## 16. QMugs
-- **Description**: Quantum-mechanical properties of over 665,000 drug-like molecules, calculated using DFT at the B3LYP/6-31G* level with the Gaussian software.
+- **Description**: Quantum-mechanical properties of over 665,000 drug-like molecules, calculated at GFN2-xTB and $\omega$B97XD/def2-SVP level theory using xTB and Psi4 software packages.
 - **Data Access**: [QMugs](https://doi.org/10.3929/ethz-b-000482129)
 
 ## 17. OrbNet Denali
-- **Description**: Data set used to develop a machine learning potential for electronic structure calculations, includes over 2.3 million molecules, calculated using various levels of theory including DFT with the Gaussian software.
+- **Description**: Data set used to develop a machine learning potential for electronic structure calculations, includes over 2.3 million molecules, calculated using various levels of theory including GFN1-xTB, AIMD and $\omega$B97X-D3/def2-TZVP with a list of softwares including ENTOS BREEZE, DIMORPHITE-DL and ENTOS QCORE.
 - **Data Access**: [OrbNet Denali on Figshare](https://doi.org/10.6084/m9.figshare.14883867)
 
 ## 18. MD17 and its later versions
-- **Description**: Benchmark data sets for assessing force fields in MD simulations, includes ten small organic molecules, calculated using DFT at the PBE/def2-SVP level with the Gaussian software.
+- **Description**: Ab-initio molecular dynamics trajectories collection along with total energy and forces for ten small organic molecules, calculated using PIMD, PBE + vdW-TS, PBE/def2-SVP, CCSD, CCSD(T) and DFT FHI-aims with a list of softwares including i-PI code, ORCA and FHI-aims.
 - **Data Access**:
   - [MD17 Data Sets](http://www.sgdml.org/#data_sets)
   - [rMD17 Data Set](https://dx.doi.org/10.6084/m9.figshare.12672038)
 
 ## 19. xxMD17
-- **Description**: Extended MD data set including nonadiabatic trajectories for excited electronic states of small organic molecules, calculated using DFT and nonadiabatic molecular dynamics with the Gaussian and Newton-X software.
+- **Description**: Excited-state molecular dynamics  data set for four molecular systems chosen for their photochemical activity: azobenzene, malonaldehyde, stilbene, and dithiophene, calculated using Surface hopping dynamics, SA-CASSCF electronic theory and unrestricted KS-DFT (M069 meta-GGA and 6-31g) with a list of softwares including SHARC, OpenMolcas 22.06 and Psi4.
 - **Data Access**:
   - [GitHub Repository](https://github.com/zpengmei/xxMD)
   - [Zenodo Repository](https://doi.org/10.5281/zenodo.10393859)
 
 ## 20. MD22
-- **Description**: Comprehensive benchmark collection featuring MD trajectories for various biomolecules and supramolecular structures, calculated using DFT and classical MD simulations with the Gaussian and AMBER software.
+- **Description**: MD trajectories for seven systems spanning four major classes of biomolecules and supramolecular structures, calculated using PBE+MBD level of theory with "light" and "tight" basis sets within the FHI-aims framework.
 - **Data Access**: [MD22 Data Set](http://www.sgdml.org/#data_sets)
 
 ## 21. WS22 Database
-- **Description**: A comprehensive database focusing on ten organic molecules with up to 22 atoms, including 1.18 million geometries. Provides various quantum mechanical properties calculated using DFT at the B3LYP/6-31G* level with the Gaussian software.
+- **Description**: A comprehensive database featuring ten organic molecules with up to 22 atoms, encompassing 1.18 million geometries, offers a range of quantum mechanical properties. These properties have been calculated using various methods, such as the Wigner sampling approach, geometry interpolation scheme, B3LYP/6-31G*, and classical AIMD. The computations were performed using software including Newton-X and Gaussian 09.
 - **Data Access**: [WS22 Database on Zenodo](https://doi.org/10.5281/zenodo.7032334)
 
 ## 22. VIB5 Database
-- **Description**: A collection of high-quality ab initio quantum chemical data for five small polyatomic molecules with significant astrophysical relevance, calculated using coupled-cluster methods with the MOLPRO software.
-- **Data Access**: [VIB5 Database on Figshare](https://doi.org/10.6084/m9.figshare.1690328879)
+- **Description**: A collection of high-quality ab initio quantum chemical data for five small polyatomic molecules with significant astrophysical relevance, calculated using coupled-cluster and HF theory with the MOLPRO and CFOUR softwares.
+- **Data Access**: [VIB5 Database on Figshare](https://doi.org/10.6084/m9.figshare.16903288)
 
 ## 23. ANI-1 Dataset
-- **Description**:
-
- A comprehensive collection of non-equilibrium DFT total energy calculations for organic molecules, used to train the ANI-1 potential, calculated using the PBE/6-31G* level with the Gaussian software.
+- **Description**: A collection of non-equilibrium DFT total energy calculations for organic molecules, encompassing approximately 20 million conformations of 57,462 small organic molecules, used to train the ANI-1 potential, calculated using MMFF94 force field and $\omega$B97x/6-31G(d) with the Gaussian 09.
 - **Data Access**: [ANI-1 Dataset on Figshare](https://doi.org/10.6084/m9.figshare.5287732.v1)
 - **GitHub Repository**: [ANI-1 Dataset on GitHub](https://github.com/isayev/ANI1_dataset)
 
 ## 24. ANI-1x and ANI-1ccx Datasets
-- **Description**: Extensive collections of millions of organic molecule conformations, used to train the ANI-1x and ANI-1ccx ML potentials, calculated using the DFTB3LYP and CCSD(T) methods with the Gaussian software.
+- **Description**: The ANI-1x data set comprises DFT calculations (wB97x/6-31G* and wB97x/def2-TZVPP) for approximately 5 million organic molecule conformations. The ANI-1ccx data set is a subset of ANI-1x, recomputed at the CCSD(T)/CBS level of theory. The computations utilized software such as RDKit, ASE, Gaussian 09, ORCA, and the HORTON software library.
 - **Data Access**:
   - [ANI-1x and ANI-1ccx Datasets on Figshare](https://doi.org/10.6084/m9.figshare.c.4712477)
   - [GitHub Repository](https://github.com/aiqm/ANI1x_datasets)
 
 ## 25. Transition1x Dataset
-- **Description**: A dataset that incorporates data from transition regions, empowering ML models to learn features essential for accurate reaction barrier prediction, calculated using DFT at the PBE/6-31G* level with the Gaussian software.
+- **Description**: A collection of 9.6 million data points, each meticulously generated using DFT calculations with forces and energies for a staggering 10,000 organic reactions. These calculations employed the $\omega$B97x/6-31G(d) level of theory and utilized NEB and CINEB exploration technique. The computations were performed using software such as ASE and ORCA.
 - **Data Access**:
   - [Transition1x Dataset on Figshare](https://doi.org/10.6084/m9.figshare.19614657.v4)
   - [Dataloaders and example scripts on GitHub](https://gitlab.com/matschreiner/T1x)
 
 ## 26. QM-sym Database
-- **Description**: A database documenting the C$_n$h symmetry for each molecule within its vast repository, including 135,000 structures, calculated using DFT at the B3LYP/6-31G(d) level with the Gaussian software.
+- **Description**: A database documenting the C$_n$h symmetry for each molecule within its vast repository, including 135,000 structures, calculated using DFT at the B3LYP/6-31G(2df,p) level with the Gaussian 09 software.
 - **Data Access**:
   - [GitHub Repository](https://github.com/XI-Lab/QM-sym-database)
   - [Figshare](https://doi.org/10.6084/m9.Figshare.9638093)
 
 ## 27. QM-symex Database
-- **Description**: Contains extensive electronic structure data for a wide range of molecular geometries with documented symmetries, calculated using DFT and post-Hartree-Fock methods with the Gaussian and MOLPRO software.
+- **Description**: The QM-sym dataset has been expanded to include an additional 38,000 molecules, providing valuable information on excited-state properties. Calculation were performed using DFT at the B3LYP/6-31G(2df,p) level with the Gaussian 09 software.
 - **Data Access**: [QM-symex on Figshare](https://doi.org/10.6084/m9.Figshare.12815276)
 
 ## 28. $\nabla^2$DFT Dataset
-- **Description**: A dataset providing energies, forces, and various other properties calculated at a reasonably accurate DFT level for around 2 million drug-like molecules, using the Gaussian software.
+- **Description**: A comprehensive collection of approximately 16 million conformers for around 2 million drug-like molecules, calculated using $\omega$B97X-D/def2-SVP level theory with Psi4 software.
 - **Data Access**: [nablaDFT Dataset on GitHub](https://github.com/AIRI-Institute/nablaDFT)
 
 ## 29. Other Datasets
-- **C7O2H10-17**: Molecular dynamics trajectories for 113 randomly selected isomers of C7O2H10, calculated using DFT at the B3LYP/6-31G(d) level with the Gaussian software.
+- **C7O2H10-17**: Molecular dynamics trajectories for 113 randomly selected isomers of C7O2H10 (which represents the largest set of isomers within the
+QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
   - **Data Access**: [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
-- **ISO17**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT at the B3LYP/6-31G(d) level with the Gaussian software.
+- **ISO17**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT (PBE functional) with FHI-aims software.
   - **Data Access**: [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
 - **TensorMol ChemSpider**: Energies for 3 million conformations from 15,000 different molecules, calculated using the QChem software.
