@@ -23,27 +23,23 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Data Accessibility**: [QM7-X on Zenodo](https://doi.org/10.5281/zenodo.4288677)
 
 ## 6. QM7
-- **Description**: Focuses on a subset of 7,165 small organic molecules from the GDB-13 database, providing Coulomb matrices, atomization energies, atomic charge, and Cartesian coordinates. DFT calculations are done at the PBE0/def2-TZVP level using the Gaussian software.
+- **Description**: Focuses on a subset of 7,165 small organic molecules from the GDB-13 database, providing Coulomb matrices, atomization energies, atomic charge, and Cartesian coordinates. DFT calculations are done using PBE0/tier2 basis set implemented in FHI-aims code.
 - **Data Accessibility**: [QM7 on Quantum-Machine.org](http://quantum-machine.org/datasets/)
 
 ## 7. QM7b
-- **Description**: An extension of QM7, providing data on 7,211 small organic molecules including 14 properties such as atomization energy, static polarizability, and frontier orbital eigenvalues, calculated using DFT and other quantum chemistry methods with Gaussian software.
+- **Description**: An extension of QM7, providing data on 7,211 small organic molecules including 14 properties such as atomization energy, static polarizability, and frontier orbital eigenvalues, calculated using DFT and other quantum chemistry methods. Software used are OpenBabel, ORCA, and FHI-aims code (tight settings/tier2 basis set).
 - **Data Accessibility**: [Supplementary material of the reference paper](http://stacks.iop.org/NJP/15/095003/mmedia)
 
 ## 8. QM8
-- **Description**: Provides electronic spectra data for approximately 21,786 small organic molecules, derived from QM9, calculated using TDDFT and other excited-state methods with the Gaussian software.
+- **Description**: Provides electronic spectra data for approximately 21,786 small organic molecules, derived from QM9, calculated using TDDFT and other excited-state methods with the TURBOMOLE program.
 - **Data Accessibility**: [Supplementary material of the reference paper](https://pubs.aip.org/jcp/article-supplement/73278/zip/084111_1_supplements/)
 
-## 9. PC9
-- **Description**: A counterpart to QM9, containing 99,234 distinct molecules from the PubChemQC project, calculated using DFT at the B3LYP/6-31G* level with the Gaussian software.
-- **Data Accessibility**: [PC9 on Figshare](https://doi.org/10.6084/m9.figshare.9033977.v1) | [PC9 on Zenodo](https://doi.org/10.5281/zenodo.3588370)
-
 ## 10. QM1B
-- **Description**: A large dataset of one billion training examples for machine learning applications in quantum chemistry, focusing on molecules with 9-11 heavy atoms, calculated using DFT with the Gaussian software.
+- **Description**: A large dataset of one billion training examples for machine learning applications in quantum chemistry, focusing on molecules with 9-11 heavy atoms, calculated using STO-3G and B3LYP in PySCF$_{\rm IPU}.
 - **Data Accessibility**: [QM1B on GitHub](https://github.com/graphcore-research/qm1b-dataset)
 
 ## 11. SPICE
-- **Description**: Focuses on the energetic interplay between drug-like small molecules and proteins, using a combination of DFT and molecular dynamics simulations with the Gaussian software.
+- **Description**: A dataset of 2,008,628 conformations of 113,999 drug-like small molecules and proteins, using $\omega$B97M-D3BJ/def2-TZVPPD level theory implemen ted in Psi4.
 - **Data Accessibility**: [Zenodo](https://doi.org/10.5281/zenodo.7338495) | [GitHub](https://github.com/openmm/spice-dataset)
 
 ## 12. PubChemQC Database
@@ -57,6 +53,10 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 ## 14. PubChemQC B3LYP/6-31G*//PM6
 - **Description**: Electronic properties for 85,938,443 molecules using DFT with the B3LYP/6-31G* basis set, following initial geometry optimization with the PM6 method, using the Gaussian and MOPAC software.
 - **Data Access**: [PubChemQC B3LYP/6-31G*//PM6](https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_pm6_datasets.html)
+
+## 9. PC9
+- **Description**: A counterpart to QM9, containing 99,234 distinct molecules from the PubChemQC project, calculated using DFT at the B3LYP/6-31G* level with the Gaussian software.
+- **Data Accessibility**: [PC9 on Figshare](https://doi.org/10.6084/m9.figshare.9033977.v1) | [PC9 on Zenodo](https://doi.org/10.5281/zenodo.3588370)
 
 ## 15. bigQM7ω
 - **Description**: Ground-state properties and electronic spectra for over 12,880 molecules calculated using DFT and TDDFT with various functionals and basis sets, using the Gaussian software.
