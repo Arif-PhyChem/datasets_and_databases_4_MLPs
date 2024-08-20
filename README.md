@@ -1,6 +1,6 @@
 # Quantum Chemical Data Sets and Databases for Machine Learning Potentials
 
-This GitHub dashboard provides links and brief descriptions for various quantum chemistry datasets mentioned in the paper.
+This GitHub dashboard provides links and brief descriptions for various quantum chemistry datasets mentioned in the paper. The list is organized in alphabetical order. 
 
 
 ## 1. ANI-1 Dataset
