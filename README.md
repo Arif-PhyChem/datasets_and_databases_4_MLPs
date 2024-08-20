@@ -1,6 +1,6 @@
 # Quantum Chemical Data Sets and Databases for Machine Learning Potentials
 
-This GitHub dashboard provides links and brief descriptions for various quantum chemistry datasets mentioned in the paper. Here we follow alphabetical order. 
+This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in the paper. Here we follow alphabetical order. 
 
 
 ## 1. ANI-1 Dataset
@@ -187,6 +187,6 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 
 ## Contributions
 
-We welcome contributions! If you have new datasets to add or updates to existing ones, please submit a pull request.
+We welcome contributions! If you have new data sets or databases to add or updates to existing ones, please submit a pull request.
 
 
