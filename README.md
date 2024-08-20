@@ -137,7 +137,7 @@ QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
 Scheffler (TS) van der Waals correction method) with FHI-aims software.
   - **Data Access**: [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
-- **VQM24**: Provides quantum mechanical properties for 258,242 unique constitutional isomers and 577,705 conformers of varying stoichiometries, focusing on molecules composed of up to five heavy atoms from elements such as C, N, O, F, Si, P, S, Cl, and Br. The dataset utilizes methods including MMFF94, GFN2-xTB, $\omega$B97X-D3/cc-pVDZ, and DMC@PBE0/ccECP/ccpVQZ, with calculations performed using Surge, RDKit, Crest, Psi4, and QMCPACK.
+- **VQM24**: Provides quantum mechanical properties for 258,242 unique constitutional isomers and 577,705 conformers of varying stoichiometries, focusing on molecules composed of up to five heavy atoms from elements such as C, N, O, F, Si, P, S, Cl, and Br. The dataset utilizes methods including MMFF94, GFN2-xTB, $\omega$ B97X-D3/cc-pVDZ, and DMC@PBE0/ccECP/ccpVQZ, with calculations performed using Surge, RDKit, Crest, Psi4, and QMCPACK.
   - **Data Access**: [Zenodo](https://doi.org/10.5281/zenodo.11164951)
 
 - **QM22**: A compilation of molecular datasets specifically curated for Diffusion Monte Carlo (DMC) calculations of the zero-point state. Each dataset within QM22 employs unique methodologies tailored to the specific molecules involved, with detailed computational methods available in their corresponding publications.
