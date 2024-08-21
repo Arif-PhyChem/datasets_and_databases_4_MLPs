@@ -94,7 +94,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 ## 17. QCDGE
 - **Description**: An extensive collection of ground and excited-state properties for 443,106 organic molecules, each containing up to ten heavy atoms, including carbon, nitrogen, oxygen, and fluorine. These molecules are sourced from well-known databases such as QM9, PubChemQC, and GDB-11. Ground-state geometry optimizations and frequency calculations for all compounds were carried out using the B3LYP/6-31G* level of theory with BJD3 dispersion correction, while excited-state single-point calculations were performed at the $\omega$ B97X-D/6-31G* level. All computational work was conducted using Gaussian 16.
 - **Data Accessibility**:
-  - {Lan's group webpage}{http://langroup.site/QCDGE/}
+  - [Lan's group webpage](http://langroup.site/QCDGE/)
 
 ## 18. QM1B
 - **Description**: A large dataset of one billion training examples for machine learning applications in quantum chemistry, focusing on molecules with 9-11 heavy atoms, calculated using STO-3G and B3LYP in PySCF$_{\rm IPU}.
