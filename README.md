@@ -60,7 +60,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 - **Data Accessibility**:
   - [MultiXC-QM9 on Figshare](https://doi.org/10.11583/DTU.c.6185986.v3)
 
-## 11. $\nabla^2$DFT Dataset
+## 11. $\nabla^2$ DFT Dataset
 - **Description**: A comprehensive collection of approximately 16 million conformers for around 2 million drug-like molecules, calculated using $\omega$B97X-D/def2-SVP level theory with Psi4 software.
 - **Data Accessibility**:
   - [nablaDFT Dataset on GitHub](https://github.com/AIRI-Institute/nablaDFT)
