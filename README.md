@@ -66,7 +66,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
   - [nablaDFT Dataset on GitHub](https://github.com/AIRI-Institute/nablaDFT)
 
 ## 12. OrbNet Denali
-- **Description**: Data set used to develop a machine learning potential for electronic structure calculations, includes over 2.3 million molecules, calculated using various levels of theory including GFN1-xTB, AIMD and $\omega$B97X-D3/def2-TZVP with a list of softwares including ENTOS BREEZE, DIMORPHITE-DL and ENTOS QCORE.
+- **Description**: Data set used to develop a machine learning potential for electronic structure calculations, includes over 2.3 million molecules, calculated using various levels of theory including GFN1-xTB, AIMD and $\omega$ B97X-D3/def2-TZVP with a list of softwares including ENTOS BREEZE, DIMORPHITE-DL and ENTOS QCORE.
 - **Data Accessibility**:
   -  [OrbNet Denali on Figshare](https://doi.org/10.6084/m9.figshare.14883867)
 
