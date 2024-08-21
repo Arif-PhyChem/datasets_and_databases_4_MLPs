@@ -4,13 +4,13 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 
 
 ## 1. ANI-1 Dataset
-- **Description**: A collection of non-equilibrium DFT total energy calculations for organic molecules, encompassing approximately 20 million conformations of 57,462 small organic molecules, used to train the ANI-1 potential, calculated using MMFF94 force field and $\omega$B97x/6-31G(d) with the Gaussian 09.
+- **Description**: A collection of non-equilibrium DFT total energy calculations for organic molecules, encompassing approximately 20 million conformations of 57,462 small organic molecules, used to train the ANI-1 potential, calculated using MMFF94 force field and $\omega$ B97x/6-31G(d) with the Gaussian 09.
 - **Data Accessibility**:
   - [ANI-1 Dataset on Figshare](https://doi.org/10.6084/m9.figshare.5287732.v1)
   - [ANI-1 Dataset on GitHub](https://github.com/isayev/ANI1_dataset)
 
 ## 2. ANI-1x and ANI-1ccx Datasets
-- **Description**: The ANI-1x data set comprises DFT calculations (wB97x/6-31G* and wB97x/def2-TZVPP) for approximately 5 million organic molecule conformations. The ANI-1ccx data set is a subset of ANI-1x, recomputed at the CCSD(T)/CBS level of theory. The computations utilized software such as RDKit, ASE, Gaussian 09, ORCA, and the HORTON software library.
+- **Description**: The ANI-1x data set comprises DFT calculations ($\omega$ B97x/6-31G* and $\omega$ B97x/def2-TZVPP) for approximately 5 million organic molecule conformations. The ANI-1ccx data set is a subset of ANI-1x, recomputed at the CCSD(T)/CBS level of theory. The computations utilized software such as RDKit, ASE, Gaussian 09, ORCA, and the HORTON software library.
 - **Data Accessibility**:
   - [ANI-1x and ANI-1ccx Datasets on Figshare](https://doi.org/10.6084/m9.figshare.c.4712477)
   - [GitHub Repository](https://github.com/aiqm/ANI1x_datasets)
