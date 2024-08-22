@@ -10,7 +10,7 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
   - [ANI-1 Dataset on GitHub](https://github.com/isayev/ANI1_dataset)
 
 ## 2. ANI-1x and ANI-1ccx Datasets
-- **Description**: The ANI-1x data set comprises DFT calculations ($\omega$ B97x/6-31G* and $\omega$ B97x/def2-TZVPP) for approximately 5 million organic molecule conformations. The ANI-1ccx data set is a subset of ANI-1x, recomputed at the CCSD(T)/CBS level of theory. The computations utilized software such as RDKit, ASE, Gaussian 09, ORCA, and the HORTON software library.
+- **Description**: The ANI-1x data set comprises DFT calculations ($\omega$ B97x/6-31G* and $\omega$ B97x/def2-TZVPP) for approximately 5 million organic molecule conformations. The ANI-1ccx data set is a subset of ANI-1x, recomputed at the CCSD(T)/CBS level of theory. Multiple softwares are utlilized in data generation such as RDKit, ASE, Gaussian 09, ORCA, and the HORTON software library.
 - **Data Accessibility**:
   - [ANI-1x and ANI-1ccx Datasets on Figshare](https://doi.org/10.6084/m9.figshare.c.4712477)
   - [GitHub Repository](https://github.com/aiqm/ANI1x_datasets)
