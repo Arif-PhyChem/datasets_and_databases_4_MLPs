@@ -56,7 +56,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
   - [MD22 Data Set](http://www.sgdml.org/#data_sets)
 
 ## 10. MultiXC-QM9
-- **Description**: Expands upon QM9 by including data from 76 different DFT functionals alongside three basis sets and a semi-empirical method (GFN2-XTB), for small organic molecules, using the SCM software package.
+- **Description**: Expands upon QM9 by including data from 76 different DFT functionals alongside three basis sets and a semi-empirical method (GFN2-XTB), for small organic molecules, using the ADF software package.
 - **Data Accessibility**:
   - [MultiXC-QM9 on Figshare](https://doi.org/10.11583/DTU.c.6185986.v3)
 
