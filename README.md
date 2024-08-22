@@ -22,13 +22,13 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
   - [NOMAD Repository](https://dx.doi.org/10.17172/NOMAD/2021.09.30-1)
   - [Data-mining Platform](https://moldis.tifrh.res.in/index.html)
 
-## 4. **C7O2H10-17**: 
+## 4. **C7O2H10-17** 
 - **Description**: Molecular dynamics trajectories for 113 randomly selected isomers of C7O2H10 (which represents the largest set of isomers within the
 QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
  - **Data Accessibility**:
    - [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
-## 5. **CheMFi**: 
+## 5. **CheMFi**
 - **Description**: A multifidelity compilation of quantum chemical properties derived from a subset of the WS22 database, featuring 135,000 geometries sampled from nine distinct molecules. It includes five different levels of fidelity, each corresponding to a specific basis set size (STO-3G, 3-21G, 6-31G, def2-SVP, def2-TZVP). The dataset was generated using TD-DFT with the CAM-B3LYP functional, calculated via the ORCA software.
 - **Data Accessibility**:
   - [GitHub](https://github.com/SM4DA/CheMFi)
@@ -38,7 +38,7 @@ QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
 - **Data Accessibility**:
   - [GW-QM9 on Figshare](https://doi.org/10.6084/m9.figshare.21610077.v1)
 
-## 7. **ISO17**: 
+## 7. **ISO17** 
 - **Description**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT (PBE functional, GGA and Tkatchenko
 Scheffler (TS) van der Waals correction method) with FHI-aims software.
  - **Data Accessibility**:
@@ -142,7 +142,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 - **Data Accessibility**:
   - [QM-symex on Figshare](https://doi.org/10.6084/m9.Figshare.12815276)
 
-## 27. **QM-22**:
+## 27. **QM-22**
 - **Description**: A compilation of molecular datasets specifically curated for Diffusion Monte Carlo (DMC) calculations of the zero-point state. Each dataset within QM22 employs unique methodologies tailored to the specific molecules involved, with detailed computational methods available in their corresponding publications.
  - **Data Accessibility**:
    - [GitHub](https://github.com/jmbowma/QM-22)
@@ -158,7 +158,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
   - [Zenodo](https://doi.org/10.5281/zenodo.7338495)
   - [GitHub](https://github.com/openmm/spice-dataset)
 
-## 30. **TensorMol ChemSpider**: 
+## 30. **TensorMol ChemSpider** 
 - **Description**: Energies for 3 million conformations from 15,000 different molecules, calculated using the QChem software.
 - **Data Accessibility**:
   - The TensorMol ChemSpider data set was reportedly available for download at [Google Drive](https://drive.google.com/drive/folders/1IfWPs7i5kfmErIRyuhGv95dSVtNFo0e_) according to the supplementary information. However, the dataset is no longer accessible.
@@ -174,7 +174,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 - **Data Accessibility**:
   - [VIB5 Database on Figshare](https://doi.org/10.6084/m9.figshare.16903288)
 
-## 33. **VQM24**: 
+## 33. **VQM24**
 - **Description**: Provides quantum mechanical properties for 258,242 unique constitutional isomers and 577,705 conformers of varying stoichiometries, focusing on molecules composed of up to five heavy atoms from elements such as C, N, O, F, Si, P, S, Cl, and Br. The dataset utilizes methods including MMFF94, GFN2-xTB, $\omega$ B97X-D3/cc-pVDZ, and DMC@PBE0/ccECP/ccpVQZ, with calculations performed using Surge, RDKit, Crest, Psi4, and QMCPACK.
 - **Data Accessibility**:
   - [Zenodo](https://doi.org/10.5281/zenodo.11164951)
