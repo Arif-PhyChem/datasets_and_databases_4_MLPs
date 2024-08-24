@@ -163,28 +163,34 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 - **Data Accessibility**:
   - The TensorMol ChemSpider data set was reportedly available for download at [Google Drive](https://drive.google.com/drive/folders/1IfWPs7i5kfmErIRyuhGv95dSVtNFo0e_) according to the supplementary information. However, the dataset is no longer accessible.
 
-## 31. Transition1x Dataset
+## 31. tmQM
+- **Description**: Electronic energy, dispersion energy, dipole moment, natural charge at the metal center, HOMO-LUMO gap, HOMO energy, and LUMO energy for 108k transition-metal complexes computed at the TPSSh/def2-SVP // GFN2-xTB level of theory.
+- **Data Accessibility**:
+  - [UiO Computational Catalysis Site](https://www.uiocompcat.info/tmqmdataset?s=03)
+  - [Github](https://github.com/bbskjelstad/tmqm?tab=readme-ov-file) 
+
+## 32. Transition1x Dataset
 - **Description**: A collection of 9.6 million data points, each meticulously generated using DFT calculations with forces and energies for a staggering 10,000 organic reactions. These calculations employed the $\omega$B97x/6-31G(d) level of theory and utilized NEB and CINEB exploration technique. The computations were performed using software such as ASE and ORCA.
 - **Data Access**:
   - [Transition1x Dataset on Figshare](https://doi.org/10.6084/m9.figshare.19614657.v4)
   - [Dataloaders and example scripts on GitLab](https://gitlab.com/matschreiner/T1x)
 
-## 32. VIB5 Database
+## 33. VIB5 Database
 - **Description**: A collection of high-quality ab initio quantum chemical data for five small polyatomic molecules with significant astrophysical relevance, calculated using coupled-cluster and HF theory with the MOLPRO and CFOUR softwares.
 - **Data Accessibility**:
   - [VIB5 Database on Figshare](https://doi.org/10.6084/m9.figshare.16903288)
 
-## 33. **VQM24**
+## 34. **VQM24**
 - **Description**: Provides quantum mechanical properties for 258,242 unique constitutional isomers and 577,705 conformers of varying stoichiometries, focusing on molecules composed of up to five heavy atoms from elements such as C, N, O, F, Si, P, S, Cl, and Br. The dataset utilizes methods including MMFF94, GFN2-xTB, $\omega$ B97X-D3/cc-pVDZ, and DMC@PBE0/ccECP/ccpVQZ, with calculations performed using Surge, RDKit, Crest, Psi4, and QMCPACK.
 - **Data Accessibility**:
   - [Zenodo](https://doi.org/10.5281/zenodo.11164951)
 
-## 34. WS22 Database
+## 35. WS22 Database
 - **Description**: A comprehensive database featuring ten organic molecules with up to 22 atoms, encompassing 1.18 million geometries, offers a range of quantum mechanical properties. These properties have been calculated using various methods, such as the Wigner sampling approach, geometry interpolation scheme, B3LYP/6-31G*, and classical AIMD. The computations were performed using software including Newton-X and Gaussian 09.
 - **Data Accessibility**:
   - [WS22 Database on Zenodo](https://doi.org/10.5281/zenodo.7032334)
 
-## 35. xxMD17
+## 36. xxMD17
 - **Description**: Excited-state molecular dynamics  data set for four molecular systems chosen for their photochemical activity: azobenzene, malonaldehyde, stilbene, and dithiophene, calculated using Surface hopping dynamics, SA-CASSCF electronic theory and unrestricted KS-DFT (M069 meta-GGA and 6-31g) with a list of softwares including SHARC, OpenMolcas 22.06 and Psi4.
 - **Data Access**:
   - [GitHub Repository](https://github.com/zpengmei/xxMD)
