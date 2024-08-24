@@ -164,7 +164,8 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
   - The TensorMol ChemSpider data set was reportedly available for download at [Google Drive](https://drive.google.com/drive/folders/1IfWPs7i5kfmErIRyuhGv95dSVtNFo0e_) according to the supplementary information. However, the dataset is no longer accessible.
 
 ## 31. tmQM
-- **Description**: Electronic energy, dispersion energy, dipole moment, natural charge at the metal center, HOMO-LUMO gap, HOMO energy, and LUMO energy for 108k transition-metal complexes computed at the TPSSh/def2-SVP // GFN2-xTB level of theory.
+- **Description**: Electronic energy, dispersion energy, dipole moment, natural charge at the metal center, HOMO-LUMO gap, HOMO energy, and LUMO energy for 108k transition-metal complexes computed at the TPSSh/def2-SVP // GFN2-xTB level of theory. xTB calculations were performed using the xtb program, and quantum properties were derived from single-point DFT calculations on the GFN2xTB-optimized geometries, utilizing Gaussian 16.
+
 - **Data Accessibility**:
   - [UiO Computational Catalysis Site](https://www.uiocompcat.info/tmqmdataset?s=03)
   - [Github](https://github.com/bbskjelstad/tmqm?tab=readme-ov-file) 
