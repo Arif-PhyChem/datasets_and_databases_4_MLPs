@@ -1,6 +1,6 @@
 # Molecular Quantum Chemical Data Sets and Databases for Machine Learning Potentials
 
-This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://doi.org/10.26434/chemrxiv-2024-w3ld0. Here in this dashboard, we follow alphabetical order. 
+This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://arxiv.org/abs/2408.12058 . Here in this dashboard, we follow alphabetical order. 
 
 
 ## 1. ANI-1 Dataset
