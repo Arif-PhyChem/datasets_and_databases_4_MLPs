@@ -46,7 +46,13 @@ QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
 - **Description**: A multifidelity compilation of quantum chemical properties derived from a subset of the WS22 database, featuring 135,000 geometries sampled from nine distinct molecules. It includes five different levels of fidelity, each corresponding to a specific basis set size (STO-3G, 3-21G, 6-31G, def2-SVP, def2-TZVP). The dataset was generated using TD-DFT with the CAM-B3LYP functional, calculated via the ORCA software.
 - **Data Accessibility**:
   - [GitHub](https://github.com/SM4DA/CheMFi)
-    
+
+## **5.** **The COMPAS Project**
+- **Description**: The COMPAS project provides structures and properties for polycyclic aromatic systems where COMPAS-1 (43k), COMPAS-2 (0.5 million), and COMPAS-3 (40k) focus on different types of polycyclic molecules. All include molecules up to 11 rings (xTB), with up to 10 rings calculated at DFT level using CaGe, GFN1/2-xTB, B3LYP-D3(BJ)/def2-SVP, and CAM-B3LYP-D3BJ/aug-cc-pVDZ.
+- **Data Accessibility**:
+  - [GitLab](https://gitlab.com/porannegroup/compas)
+  - [Webpage](https://compas.net.technion.ac.il/)
+
 ## 6. **ISO17** 
 - **Description**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT (PBE functional, GGA and Tkatchenko
 Scheffler (TS) van der Waals correction method) with FHI-aims software.
