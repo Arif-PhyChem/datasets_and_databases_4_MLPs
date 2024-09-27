@@ -238,15 +238,6 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 - **Data Access**:
   - [GitHub Repository](https://github.com/zpengmei/xxMD)
   - [Zenodo Repository](https://doi.org/10.5281/zenodo.10393859)
-
-
-# New_updates (details will be added later)
-
-1) CREMP
-2) GEOM
-3) ANI-2x
-4) The Campus Project
-5) Quantum Topological Atomic Properties of 44K molecules
    
 ## Contributions
 
