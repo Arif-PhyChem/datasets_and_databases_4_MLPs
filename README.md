@@ -2,6 +2,10 @@
 
 This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://arxiv.org/abs/2408.12058 . Here in this dashboard, we follow alphabetical order. 
 
+## **1.** AIMEl-DB Dataset
+- **Description**: AIMEl-DB provides atomic properties (e.g., energy, dipole, quadrupole) for 44,000 molecules randomly selected from QM9. These properties are calculated using DFT at the B3LYP/6-31G(2df,p) level with Gaussian 16 and AIMAll.
+- **Data Accessibility**:
+  - [Zendodo](https://zenodo.org/records/11406726)
 
 ## **1.**  ANI-1 Dataset
 - **Description**: A collection of non-equilibrium DFT total energy calculations for organic molecules, encompassing approximately 20 million conformations of 57,462 small organic molecules, used to train the ANI-1 potential, calculated using MMFF94 force field and $\omega$ B97x/6-31G(d) with the Gaussian 09.
