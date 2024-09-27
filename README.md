@@ -140,6 +140,11 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 - **Data Accessibility**:
   - [QM9 on Figshare](https://doi.org/10.6084/m9.figshare.978904)
 
+## 23. QM9S
+- **Description**: A collection of 33,885 organic molecules from QM9 for training/testing DetaNet where geometries were re-optimized with Gaussian 16 (B3LYP/def-TZVP). Molecular properties (scalar, vector, tensor) were calculated at the same level, including IR, Raman, and UV-Vis spectra from frequency analysis and TD-DFT 
+- **Data Accessibility**:
+  - [QM9S on Figshare](https://doi.org/10.6084/m9.figshare.24235333)
+
 ## 24. QM9-G4MP2
 - **Description**: Provides highly accurate G4MP2 calculations for the molecular structures within QM9, focusing on small organic molecules, using the Gaussian 16 software.
 - **Data Accessibility**:
