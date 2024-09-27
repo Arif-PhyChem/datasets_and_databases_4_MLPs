@@ -60,7 +60,10 @@ QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
   - [CREMP on Zenodo](https://doi.org/10.5281/zenodo.7931444)
   - [CREMP-CycPeptMPDB on Zenodo](https://doi.org/10.5281/zenodo.10798261)
 
-
+## 6. **GEOM** 
+- **Description**: The GEOM dataset (451,186 molecules) provides high-quality conformers for drug-like species and QM9 molecules. It was generated using RDKit, MMFF, GFN2-xTB, CREST, CENSO, and ORCA. The dataset includes conformers with energies, vibrational frequencies, and other properties.
+ - **Data Accessibility**:
+   - [GitHub](https://github.com/learningmatter-mit/geom)
 
 ## 6. **ISO17** 
 - **Description**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT (PBE functional, GGA and Tkatchenko
