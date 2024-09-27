@@ -171,6 +171,11 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
  - **Data Accessibility**:
   - [QMugs](https://doi.org/10.3929/ethz-b-000482129)
 
+## 28. revQM9
+- **Description**: A revised version of QM9 with recalculated properties at the aPBE0 level (PBE0 with ML-determined exact exchange). PySCF 2.4.0 was used for simulations, with aPBE0 parameters from a trained ML model targeting CCSD(T)/cc-pVTZ atomization energies. The dataset includes total and atomization energies, orbital energies, dipole moments, and density matrices.
+ - **Data Accessibility**:
+  - [Zenodo](https://zenodo.org/doi/10.5281/zenodo.10689883)
+
 ## 29. SPICE
 - **Description**: A dataset of 2,008,628 conformations of 113,999 drug-like small molecules and proteins, using $\omega$B97M-D3BJ/def2-TZVPPD level theory implemented in Psi4.
 - **Data Accessibility**:
