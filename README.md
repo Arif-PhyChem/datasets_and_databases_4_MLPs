@@ -53,6 +53,13 @@ QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
   - [GitLab](https://gitlab.com/porannegroup/compas)
   - [Webpage](https://compas.net.technion.ac.il/)
 
+## **5.** **CREMP**
+- **Description**: CREMP dataset (36k macrocyclic peptides, 31.3 million conformers) for ML training. Generated using CREST, RDKit, ETKDGv3, MMFF94, GFN2-xTB, and metadynamics. Properties calculated at semiempirical level. CREMP-CycPeptMPDB (8.7 million conformers) added for passive membrane permeability.
+- **Data Accessibility**:
+  - [Zenodo-1](https://doi.org/10.5281/zenodo.7931444)
+  - [Zenodo-2](https://doi.org/10.5281/zenodo.10798261)
+
+
 ## 6. **ISO17** 
 - **Description**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT (PBE functional, GGA and Tkatchenko
 Scheffler (TS) van der Waals correction method) with FHI-aims software.
