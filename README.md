@@ -3,13 +3,13 @@
 This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://arxiv.org/abs/2408.12058 . Here in this dashboard, we follow alphabetical order. 
 
 
-## 1. ANI-1 Dataset
+1. ## ANI-1 Dataset
 - **Description**: A collection of non-equilibrium DFT total energy calculations for organic molecules, encompassing approximately 20 million conformations of 57,462 small organic molecules, used to train the ANI-1 potential, calculated using MMFF94 force field and $\omega$ B97x/6-31G(d) with the Gaussian 09.
 - **Data Accessibility**:
   - [ANI-1 Dataset on Figshare](https://doi.org/10.6084/m9.figshare.5287732.v1)
   - [ANI-1 Dataset on GitHub](https://github.com/isayev/ANI1_dataset)
 
-## 2. ANI-1x and ANI-1ccx Datasets
+2. ## ANI-1x and ANI-1ccx Datasets
 - **Description**: The ANI-1x data set comprises DFT calculations ($\omega$ B97x/6-31G* and $\omega$ B97x/def2-TZVPP) for approximately 5 million organic molecule conformations. The ANI-1ccx data set is a subset of ANI-1x, recomputed at the CCSD(T)/CBS level of theory. Multiple softwares are utlilized in data generation such as RDKit, ASE, Gaussian 09, ORCA, and the HORTON software library.
 - **Data Accessibility**:
   - [ANI-1x and ANI-1ccx Datasets on Figshare](https://doi.org/10.6084/m9.figshare.c.4712477)
@@ -33,12 +33,7 @@ QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
 - **Data Accessibility**:
   - [GitHub](https://github.com/SM4DA/CheMFi)
     
-## 6. GW-QM9
-- **Description**: Provides highly accurate frontier orbital energies and ionization potential/electron affinity values for 134,000 molecules from QM9 using the GW method implemented in CP2K.
-- **Data Accessibility**:
-  - [GW-QM9 on Figshare](https://doi.org/10.6084/m9.figshare.21610077.v1)
-
-## 7. **ISO17** 
+## 6. **ISO17** 
 - **Description**: Extends the C7O2H10-17 dataset with 129 isomers and additional data, calculated using DFT (PBE functional, GGA and Tkatchenko
 Scheffler (TS) van der Waals correction method) with FHI-aims software.
  - **Data Accessibility**:
