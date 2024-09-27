@@ -3,32 +3,32 @@
 This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://arxiv.org/abs/2408.12058 . Here in this dashboard, we follow alphabetical order. 
 
 
-## 1.  ANI-1 Dataset
+## **1.**  ANI-1 Dataset
 - **Description**: A collection of non-equilibrium DFT total energy calculations for organic molecules, encompassing approximately 20 million conformations of 57,462 small organic molecules, used to train the ANI-1 potential, calculated using MMFF94 force field and $\omega$ B97x/6-31G(d) with the Gaussian 09.
 - **Data Accessibility**:
   - [ANI-1 Dataset on Figshare](https://doi.org/10.6084/m9.figshare.5287732.v1)
   - [ANI-1 Dataset on GitHub](https://github.com/isayev/ANI1_dataset)
 
-## 2. ANI-1x and ANI-1ccx Datasets
+## **2.** ANI-1x and ANI-1ccx Datasets
 - **Description**: The ANI-1x data set comprises DFT calculations ($\omega$ B97x/6-31G* and $\omega$ B97x/def2-TZVPP) for approximately 5 million organic molecule conformations. The ANI-1ccx data set is a subset of ANI-1x, recomputed at the CCSD(T)/CBS level of theory. Multiple softwares are utlilized in data generation such as RDKit, ASE, Gaussian 09, ORCA, and the HORTON software library.
 - **Data Accessibility**:
   - [ANI-1x and ANI-1ccx Datasets on Figshare](https://doi.org/10.6084/m9.figshare.c.4712477)
   - [GitHub Repository](https://github.com/aiqm/ANI1x_datasets)
 
-## 3. bigQM7ω
+## **3.** bigQM7ω
 - **Description**: Ground-state properties and electronic spectra for over 12,880 molecules calculated using DFT and TDDFT with various functionals and basis sets, using the Gaussian software.
 - **Data Accessibility**:
   - [Core Data](https://moldisgroup.github.io/bigQM7w)
   - [NOMAD Repository](https://dx.doi.org/10.17172/NOMAD/2021.09.30-1)
   - [Data-mining Platform](https://moldis.tifrh.res.in/index.html)
 
-## 4. **C7O2H10-17** 
+## **4.** **C7O2H10-17** 
 - **Description**: Molecular dynamics trajectories for 113 randomly selected isomers of C7O2H10 (which represents the largest set of isomers within the
 QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
  - **Data Accessibility**:
    - [quantum-machine.org](http://quantum-machine.org/data%20sets/)
 
-## 5. **CheMFi**
+## **5.** **CheMFi**
 - **Description**: A multifidelity compilation of quantum chemical properties derived from a subset of the WS22 database, featuring 135,000 geometries sampled from nine distinct molecules. It includes five different levels of fidelity, each corresponding to a specific basis set size (STO-3G, 3-21G, 6-31G, def2-SVP, def2-TZVP). The dataset was generated using TD-DFT with the CAM-B3LYP functional, calculated via the ORCA software.
 - **Data Accessibility**:
   - [GitHub](https://github.com/SM4DA/CheMFi)
