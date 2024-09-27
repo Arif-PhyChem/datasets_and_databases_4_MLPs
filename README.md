@@ -56,8 +56,10 @@ QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
 ## **5.** **CREMP**
 - **Description**: CREMP dataset (36k macrocyclic peptides, 31.3 million conformers) for ML training. Generated using CREST, RDKit, ETKDGv3, MMFF94, GFN2-xTB, and metadynamics. Properties calculated at semiempirical level. CREMP-CycPeptMPDB (8.7 million conformers) added for passive membrane permeability.
 - **Data Accessibility**:
+  - [GitHub](https://github.com/Genentech/cremp)
   - [CREMP on Zenodo](https://doi.org/10.5281/zenodo.7931444)
   - [CREMP-CycPeptMPDB on Zenodo](https://doi.org/10.5281/zenodo.10798261)
+
 
 
 ## 6. **ISO17** 
