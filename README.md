@@ -23,6 +23,11 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Data Accessibility**:
   - [ANI-1x and ANI-1ccx Datasets on Figshare](https://doi.org/10.6084/m9.figshare.c.4712477)
   - [GitHub Repository](https://github.com/aiqm/ANI1x_datasets)
+    
+## **2.** ANI-2x
+- **Description**: The ANI-2x dataset (8.9 million molecules) is used to train the ANI-2x ML model. It includes 7 elements (H, C, N, O, S, F, Cl), improving on ANI-1x (4 elements). ANI-2x uses S66x8 for better non-bonded interactions and a new sampling technique for bulk water. It's based on GDB-11, ChEMBL, S66x8, amino acids, and dipeptides. Active learning generates non-equilibrium geometries, refined for torsion, non-bonded interactions, and bulk water. Energies and forces are calculated using $\omega$B97X/6-31G* with Gaussian 09.
+- **Data Accessibility**:
+  - [Zenodo](https://doi.org/10.5281/zenodo.10108942)
 
 ## **3.** bigQM7ω
 - **Description**: Ground-state properties and electronic spectra for over 12,880 molecules calculated using DFT and TDDFT with various functionals and basis sets, using the Gaussian software.
