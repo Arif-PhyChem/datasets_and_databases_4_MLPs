@@ -47,7 +47,7 @@ QM9 data set), calculated using DFT (PBE functional) with FHI-aims software.
 - **Data Accessibility**:
   - [GitHub](https://github.com/SM4DA/CheMFi)
 
-## **5.** **The COMPAS Project**
+## **5.** **COMPAS Project**
 - **Description**: The COMPAS project provides structures and properties for polycyclic aromatic systems where COMPAS-1 (43k), COMPAS-2 (0.5 million), and COMPAS-3 (40k) focus on different types of polycyclic molecules. All include molecules up to 11 rings (xTB), with up to 10 rings calculated at DFT level using CaGe, GFN1/2-xTB, B3LYP-D3(BJ)/def2-SVP, and CAM-B3LYP-D3BJ/aug-cc-pVDZ.
 - **Data Accessibility**:
   - [GitLab](https://gitlab.com/porannegroup/compas)
