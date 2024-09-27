@@ -1,0 +1,1866 @@
+{
+    "dataset_overview": [
+        {
+            "name": "AIMEl-DB",
+            "full_name": "AIMEl-DB",
+            "description": "Atomic Properties for 44K small organic molecules",
+            "methods":{
+                "geometry_optimization":{
+                    "B3LYP/6-31G(2df,p)": "Gaussian 09"
+                },
+                "energy":{
+                    "B3LYP/6-31G(2df,p)": "Gaussian 16"
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 4.4e4
+            },
+            "data_access": {
+                "Zenodo": "https://zenodo.org/records/11406726"
+            },
+            "chemical_elements": ["H","C","N","O"],
+            "number_of_heavy_atoms": ["checking required","checking required",9],
+            "initial_source": [
+                "QM9"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": [0],
+            "multiplicities": [1],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "properties": [
+                "total_energy",
+                "atomic_dipole_moment",
+                "atomic_quadrupole_moment",
+                "atomic_energy",
+                "atomic_population"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{meza2024quantum,\n  title={Quantum topological atomic Properties of 44K molecules},\n  author={Meza-Gonz{\\'a}lez, Brandon and Ram{\\'\\i}rez-Palma, David I and Carpio-Mart{\\'\\i}nez, Pablo and V{\\'a}zquez-Cuevas, David and Mart{\\'\\i}nez-Mayorga, Karina and Cort{\\'e}s-Guzm{\\'a}n, Fernando},\n  journal={Scientific Data},\n  volume={11},\n  number={1},\n  pages={945},\n  year={2024},\n  publisher={Nature Publishing Group UK London}\n}\n",
+                "@dataset{meza_gonzalez_2024_11406726,\n  author = {Meza-González, Brandon and Ramírez-Palma, David I. and Carpio-Martínez, Pablo and Vázquez-Cuevas, David and Martinez-Mayorga, Karina and Cortés-Guzmán, Fernando},\n  title = {{AIMEl-DB: Atomic Properties for 44K small organic molecules}},\n  year = 2024,\n  publisher = {Universidad Nacional Autónoma de México},\n  version = {2.0},\n  doi = {10.5281/zenodo.11406726},\n  url = {https://doi.org/10.5281/zenodo.11406726}\n}\n"
+            ]
+        },
+        {
+            "name": "Alchemy",
+            "full_name": "Alchemy",
+            "description": "19,487 organic molecules contain-ing up to 14 heavy atoms from the GDB-17 database with 12 quantum mechanical properties",
+            "methods":{
+                "geometry_optimization":{
+                    "B3LYP/6-31G(2df,p)":"PySCF"
+                },
+                "energy":{
+                    "B3LYP/6-31G(2df,p)":"PySCF"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 119487
+            },
+            "data_access": {
+                "GitHub":"https://github.com/tencent-alchemy/Alchemy"
+            },
+            "chemical_elements": ["H","C","N","O","F","S","Cl"],
+            "number_of_heavy_atoms": ["checking required","checking required",14],
+            "initial_source": [
+                "GDB MedChem"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": 298.15,
+            "properties": [
+                "total_energy",
+                "dipole_moment",
+                "HOMO/LUMO_energy",
+                "HOMO/LUMO_gap",
+                "zero_point_energy",
+                "internal_energy",
+                "enthalpy",
+                "free_energy",
+                "heat_capacity"
+            ],
+            "doi": "10.48550/arXiv.1906.09427",
+            "reference":[
+                "@article{chen2019alchemy,\n  author={Guangyong Chen and Pengfei Chen and Chang-Yu Hsieh and Chee-Kong Lee and Benben Liao and Renjie Liao and Weiwen Liu and Jiezhong Qiu and Qiming Sun and Jie Tang and Richard Zemel and Shengyu Zhang},\n  title={Alchemy: A Quantum Chemistry Dataset for Benchmarking {AI} Models}, \n  journal={arXiv preprint arXiv:1906.09427 [cs.LG]},\n  year={2024} \n}\n"
+            ]
+        },
+        {
+            "name": "ANI-1",
+            "full_name": "ANI-1",
+            "description": "  A collection of non-equilibrium DFT total energy calculations for organic molecules, encompassing approximately 20 million conformations of 57,462 small organic molecules ",
+            "methods":{
+                "geometry_optimization":{
+                    "ωB97X/6-31G(d)": "Gaussian 09"
+                },
+                "energy":{
+                    "ωB97X/6-31G(d)":"Gaussian 09"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 2e7
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.5287732.v1",
+                "GitHub": "https://github.com/isayev/ANI1_dataset"
+            },
+            "chemical_elements": ["H","C","N","O"],
+            "number_of_heavy_atoms": [1,"checking required",8],
+            "initial_source": [
+                "GDB-11"
+            ], 
+            "non-equilibrium structures": "True",
+            "charges": [0],
+            "multiplicities": [1],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": "False",
+            "properties": [
+                "total_energy",
+                "force"
+            ],
+            "doi": "10.1038/sdata.2017.193",
+            "reference": [
+                "@article{smith2017ani,\n  title={ANI-1, A data set of 20 million calculated off-equilibrium conformations for organic molecules},\n  author={Smith, Justin S and Isayev, Olexandr and Roitberg, Adrian E},\n  journal={Scientific data},\n  volume={4},\n  number={1},\n  pages={1--8},\n  year={2017},\n  publisher={Nature Publishing Group}\n}\n"
+            ]
+        },
+        {
+            "name": "ANI-1x",
+            "full_name": "ANI-1x",
+            "description": " The ANI-1x data set includes DFT calculations for approximately 5 million organic molecule conformations ",
+            "methods":{
+                "geometry_optimization":{
+                    "False": "False"
+                },
+                "energy":{
+                    "ωB97X/def2-TZVPP": "ORCA 4.2.0"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 5e6
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.c.4712477",
+                "GitHub": "https://github.com/aiqm/ANI1x_datasets"
+            },
+            "chemical_elements": ["H","C","N","O"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "GDB-11",
+                "ChEMBL"
+            ], 
+            "non-equilibrium structures": "True",
+            "charges": [0],
+            "multiplicities": [1],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": "False",
+            "properties": [
+                "total_energy",
+                "force"
+            ],
+            "doi": "10.1038/s41597-020-0473-z",
+            "reference": [
+                "@article{smith2020ani,\n  title={The ANI-1ccx and ANI-1x data sets, coupled-cluster and density functional theory properties for molecules},\n  author={Smith, Justin S and Zubatyuk, Roman and Nebgen, Benjamin and Lubbers, Nicholas and Barros, Kipton and Roitberg, Adrian E and Isayev, Olexandr and Tretiak, Sergei},\n  journal={Scientific data},\n  volume={7},\n  number={1},\n  pages={134},\n  year={2020},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "ANI-1ccx",
+            "full_name": "ANI-1ccx",
+            "description": " Tthe ANI-1ccx data set is a subset of ANI-1x data set, recomputed with CCSD(T)/CBS level of theory ",
+            "methods":{
+                "geometry_optimization":{
+                    "False": "False"
+                },
+                "energy":{
+                    "CCSD(T)*/CBS":"ORCA 4.2.0",
+                    "HF/cc-pVDZ": "ORCA 4.2.0",
+                    "HF/cc-pVTZ": "ORCA 4.2.0",
+                    "HF/cc-pVQZ": "ORCA 4.2.0",
+                    "DLPNO-CCSD(T)/cc-pVDZ": "ORCA 4.2.0",
+                    "DLPNO-CCSD(T)/cc-pVTZ": "ORCA 4.2.0",
+                    "DLPNO-CCSD(T)/cc-pVQZ": "ORCA 4.2.0"
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 5e5
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.c.4712477",
+                "GitHub": "https://github.com/aiqm/ANI1x_datasets"
+            },
+            "chemical_elements": ["H","C","N","O"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "GDB-11",
+                "ChEMBL"
+            ], 
+            "non-equilibrium structures": "True",
+            "charges": [0],
+            "multiplicities": [1],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": "False",
+            "properties": [
+                "total_energy"
+            ],
+            "doi": "10.1038/s41597-020-0473-z",
+            "reference": [
+                "@article{smith2020ani,\n  title={The ANI-1ccx and ANI-1x data sets, coupled-cluster and density functional theory properties for molecules},\n  author={Smith, Justin S and Zubatyuk, Roman and Nebgen, Benjamin and Lubbers, Nicholas and Barros, Kipton and Roitberg, Adrian E and Isayev, Olexandr and Tretiak, Sergei},\n  journal={Scientific data},\n  volume={7},\n  number={1},\n  pages={134},\n  year={2020},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "ANI-2x",
+            "full_name": "ANI-2x",
+            "description": "Extension of previous developed ANI-1x datasets to include S, F, Cl with non-equilibrium geometries at DFT level",
+            "methods":{
+                "energy":{
+                    "ωB97X/6-31G*": "Gaussian 09",
+                    "ωB97X/def2-TZVPP": "ORCA 4.2.1",
+                    "B97-3c/def2-mTZVP": "ORCA 4.2.1",
+                    "ωB97M-V/def2-TZVPP": "ORCA 4.2.1",
+                    "ωB97M-D3(BJ)/def2-TZVPP": "ORCA 4.2.1"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 8.9e6 
+            },
+            "data_access": {
+                "Zenodo": "https://doi.org/10.5281/zenodo.10108942"
+            },
+            "chemical_elements": ["H","C","N","O","F","S","Cl"],
+            "number_of_heavy_atoms": ["checking required"],
+            "initial_source": [
+                "GDB-11",
+                "ChEMBL",
+                "s66x8"
+            ], 
+            "non-equilibrium structures": "True",
+            "charges": [0],
+            "multiplicities": [1],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "properties": [
+                "total_energy",
+                "force",
+                "dipole_moment"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{devereux2020extending,\n  title={Extending the applicability of the ANI deep learning molecular potential to sulfur and halogens},\n  author={Devereux, Christian and Smith, Justin S and Huddleston, Kate K and Barros, Kipton and Zubatyuk, Roman and Isayev, Olexandr and Roitberg, Adrian E},\n  journal={Journal of Chemical Theory and Computation},\n  volume={16},\n  number={7},\n  pages={4192--4202},\n  year={2020},\n  publisher={ACS Publications}\n}\n",
+                "@misc{ani2zenodo,\n  title={ANI-2 data set},\n  author={Devereux, Christian and Smith, Justin S and Huddleston, Kate K and Barros, Kipton and Zubatyuk, Roman and Isayev, Olexandr and Roitberg, Adrian E},\n  journal={Journal of Chemical Theory and Computation},\n  year={2020},\nhowpublished={Zenodo \\url{https://doi.org/10.5281/zenodo.10108942} (accessed on August 22, 2024)}\n}\n"
+            ]
+        },
+        {
+            "name": "bigQM7ω",
+            "full_name": "",
+            "description": " Ground-state properties and electronic spectra for over 12,880 molecules with 7 CONF atoms ",
+            "methods":{
+                "geometry_optimization":{
+                    "ωB97XD/3-21G":"Gaussian 16",
+                    "ωB97XD/def2-SVP":"Gaussian 16",
+                    "ωB97XD/def2-TZVP":"Gaussian 16"
+                },
+                "energy":{
+                    "ωB97XD/3-21G":"Gaussian 16",
+                    "ωB97XD/def2-SVP":"Gaussian 16",
+                    "ωB97XD/def2-TZVP":"Gaussian 16",
+                    "TDωB97XD/3-21G":"Gaussian 16",
+                    "TDωB97XD/def2-SVP":"Gaussian 16",
+                    "TDωB97XD/def2-TZVP":"Gaussian 16",
+                    "TDωB97XD/def2-SVPD":"Gaussian 16"
+
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 12880
+            },
+            "data_access": {
+                "Link1": "https://moldisgroup.github.io/bigQM7w",
+                "Link2": "https://dx.doi.org/10.17172/NOMAD/2021.09.30-1",
+                "Link3": "https://moldis.tifrh.res.in/index.html"
+            },
+            "chemical_elements": ["H","C","N","O","F"],
+            "number_of_heavy_atoms": ["checking required","checking required",7],
+            "initial_source": [
+                "GDB-11"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "True",
+            "solvent": ["gas_phase"],
+            "temperature": 298.15,
+            "properties": [
+                "total_energy",
+                "excitation_energy",
+                "dipole_moment",
+                "polarizability",
+                "internal_energy",
+                "enthalpy",
+                "free_energy",
+                "heat_capacity",
+                "harmonic_frequency"
+            ],
+            "doi": "10.1039/D1DD00031D",
+            "reference": [
+                "@article{schutt2017quantum,\n  title={Quantum-chemical insights from deep tensor neural networks},\n  author={Sch{\\\"u}tt, Kristof T and Arbabzadah, Farhad and Chmiela, Stefan and M{\\\"u}ller, Klaus R and Tkatchenko, Alexandre},\n  journal={Nature communications},\n  volume={8},\n  number={1},\n  pages={13890},\n  year={2017},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "C7O2H10-17",
+            "full_name": "",
+            "description": " MD trajectories of 5,000 steps for 113 isomers of \\ce{C7O2H10} ",
+            "methods":{
+                "geometry_optimization":{
+                    "False":"False"
+                },
+                "energy":{
+                    "PBE":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 565000
+            },
+            "data_access": {
+                "Link": "http://quantum-machine.org/datasets/"
+            },
+            "chemical_elements": ["H","C","O"],
+            "number_of_heavy_atoms": [9,9,9],
+            "initial_source": [
+                "GDB-9"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": [0],
+            "multiplicities": [1],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": "False",
+            "properties": [
+                "total_energy"
+            ],
+            "doi": "False",
+            "reference": [
+                "@article{schutt2017quantum,\n  title={Quantum-chemical insights from deep tensor neural networks},\n  author={Sch{\\\"u}tt, Kristof T and Arbabzadah, Farhad and Chmiela, Stefan and M{\\\"u}ller, Klaus R and Tkatchenko, Alexandre},\n  journal={Nature communications},\n  volume={8},\n  number={1},\n  pages={13890},\n  year={2017},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "CheMFi",
+            "full_name": "quantum Chemistry MultiFidelity",
+            "description": " A multifidelity compilation of quantum chemical properties derived from a subset of the WS22 database, featuring 135,000 geometries sampled from nine distinct molecules. It encompasses five different levels of fidelity, each corresponding to a specific basis set size (STO-3G, 3-21G, 6-31G, def2-SVP, def2-TZVP) ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "CAM-B3LYP/STO-3G":"ORCA 5.0.1"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 135000
+            },
+            "data_access": {
+                "GitHub": "https://github.com/SM4DA/CheMFi"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "WS22"
+            ], 
+            "non-equilibrium structures": "True",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "True",
+            "solvent": ["gas_phase"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "https://arxiv.org/abs/2406.14149v2",
+            "reference": [
+                "@article{vinod2024chemfi,\n  title={CheMFi: A Multifidelity Dataset of Quantum Chemical Properties of Diverse Molecules},\n  author={Vinod, Vivin and Zaspel, Peter},\n  journal={arXiv preprint arXiv:2406.14149},\n  year={2024}\n}\n\n"
+            ]
+        },
+        {
+            "name": "ISO17",
+            "full_name": "",
+            "description": " An extension of C7O2H10-17 data set, consisting of 129 isomers ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "http://quantum-machine.org/datasets/"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{schutt2017schnet,\nauthor = {Sch\\\"{u}tt, K. T. and Kindermans, P.-J. and Sauceda, H. E. and Chmiela, S. and Tkatchenko, A. and M\\\"{u}ller, K.-R.},\ntitle = {SchNet: a continuous-filter convolutional neural network for modeling quantum interactions},\nyear = {2017},\nisbn = {9781510860964},\npublisher = {Curran Associates Inc.},\naddress = {Red Hook, NY, USA},\nbooktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},\npages = {992\u20131002},\nnumpages = {11},\nlocation = {Long Beach, California, USA},\nseries = {NIPS'17}\n}\n"
+            ]
+        },
+        {
+            "name": "MD17 and its later versions",
+            "full_name": "",
+            "description": " \\textit{Ab initio} molecular dynamics trajectories collection along with total energy and forces for ten small organic molecules",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "http://www.sgdml.org/#data_sets"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{chmiela2017machine,\n  title={Machine learning of accurate energy-conserving molecular force fields},\n  author={Chmiela, Stefan and Tkatchenko, Alexandre and Sauceda, Huziel E and Poltavsky, Igor and Sch{\\\"u}tt, Kristof T and M{\\\"u}ller, Klaus-Robert},\n  journal={Science advances},\n  volume={3},\n  number={5},\n  pages={e1603015},\n  year={2017},\n  publisher={American Association for the Advancement of Science}\n}\n",
+                "@article{christensen2020role,\n  title={On the role of gradients for machine learning of molecular energies and forces},\n  author={Christensen, Anders S and Von Lilienfeld, O Anatole},\n  journal={Machine Learning: Science and Technology},\n  volume={1},\n  number={4},\n  pages={045018},\n  year={2020},\n  publisher={IOP Publishing}\n}\n",
+                "@article{chmiela2018towards,\n  title={Towards exact molecular dynamics simulations with machine-learned force fields},\n  author={Chmiela, Stefan and Sauceda, Huziel E and M{\\\"u}ller, Klaus-Robert and Tkatchenko, Alexandre},\n  journal={Nature communications},\n  volume={9},\n  number={1},\n  pages={3887},\n  year={2018},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "MD22",
+            "full_name": "",
+            "description": " MD trajectories for seven systems spanning four major classes of biomolecules and supramolecular structures ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "http://www.sgdml.org/#data_sets"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{chmiela2023accurate,\n  title={Accurate global machine learning force fields for molecules with hundreds of atoms},\n  author={Chmiela, Stefan and Vassilev-Galindo, Valentin and Unke, Oliver T and Kabylda, Adil and Sauceda, Huziel E and Tkatchenko, Alexandre and M{\\\"u}ller, Klaus-Robert},\n  journal={Science Advances},\n  volume={9},\n  number={2},\n  pages={eadf0873},\n  year={2023},\n  publisher={American Association for the Advancement of Science}\n}\n"
+            ]
+        },
+        {
+            "name": "MultiXC-QM9",
+            "full_name": "MultiXC-QM9",
+            "description": "  Expands upon QM9 by including data from 76 different DFT functionals alongside three basis sets and a semi-empirical method (GFN2-xTB) ",
+            "methods":{
+                "geometry_optimization":{
+                    "B3LYP/6-31 G(2df,p)": "Gaussian 16"
+                },
+                "energy":{
+                    "GFN2-xTB": "xTB",
+                    "76_functionals/SZ":"ADF(SCM)",
+                    "76_functionals/DZP":"ADF(SCM)",
+                    "76_functionals/TZP":"ADF(SCM)"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 133858
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.11583/DTU.c.6185986.v3",
+                "GitHub": "https://github.com/chemsurajit/largeDFTdata"
+            },
+            "chemical_elements": ["H","C","N","O","F"],
+            "number_of_heavy_atoms": ["checking required","checking required",9],
+            "initial_source": [
+                "QM9",
+                "QM9-G4MP2"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": [0],
+            "multiplicities": ["checking required"],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": 298.15,
+            "properties": [
+                "total_energy"
+            ],
+            "doi": "10.1038/s41597-023-02690-2",
+            "reference": [
+                "@article{nandi2023multixc,\n  title={MultiXC-QM9: Large dataset of molecular and reaction energies from multi-level quantum chemical methods},\n  author={Nandi, Surajit and Vegge, Tejs and Bhowmik, Arghya},\n  journal={Scientific Data},\n  volume={10},\n  number={1},\n  pages={783},\n  year={2023},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "$\\nabla^2$DFT",
+            "full_name": "",
+            "description": " A comprehensive collection of approximately 16 million conformers for around 2 million drug-like molecules ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "GitHub": "https://github.com/AIRI-Institute/nablaDFT"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{khrabrov2024nabla,\n  title={$\\nabla ^2$ DFT: A Universal Quantum Chemistry Dataset of Drug-Like Molecules and a Benchmark for Neural Network Potentials},\n  author={Khrabrov, Kuzma and Ber, Anton and Tsypin, Artem and Ushenin, Konstantin and Rumiantsev, Egor and Telepov, Alexander and Protasov, Dmitry and Shenbin, Ilya and Alekseev, Anton and Shirokikh, Mikhail and others},\n  journal={arXiv preprint arXiv:2406.14347},\n  year={2024}\n}\n"
+            ]
+        },
+        {
+            "name": "OrbNet Denali",
+            "full_name": "",
+            "description": " 2.3 million molecules based ChEMBL27 database ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.14883867"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{christensen2021orbnet,\n  title={OrbNet Denali: A machine learning potential for biological and organic chemistry with semi-empirical cost and DFT accuracy},\n  author={Christensen, Anders S and Sirumalla, Sai Krishna and Qiao, Zhuoran and O\u2019Connor, Michael B and Smith, Daniel GA and Ding, Feizhi and Bygrave, Peter J and Anandkumar, Animashree and Welborn, Matthew and Manby, Frederick R and others},\n  journal={The Journal of Chemical Physics},\n  volume={155},\n  number={20},\n  year={2021},\n  publisher={AIP Publishing}\n}\n"
+            ]
+        },
+        {
+            "name": "PC9",
+            "full_name": "",
+            "description": " 99,234 distinct molecules, a subset of PubChemQC project selected based on the limitations of QM9 data set (size of up to 9 heavy atoms in the range C, N, O and F) ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.9033977.v1",
+                "Zenodo": "https://doi.org/10.5281/zenodo.3588370"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{nakata2023pubchemqc,\n  title={{PubChemQC} {B3LYP}/6-31{G}*//{PM6} Data Set: The Electronic Structures of 86 Million Molecules Using {B3LYP/6-31G*} Calculations},\n  author={Nakata, Maho and Maeda, Toshiyuki},\n  journal={Journal of Chemical Information and Modeling},\n  volume={63},\n  number={18},\n  pages={5734--5754},\n  year={2023},\n  publisher={ACS Publications}\n}\n"
+            ]
+        },
+        {
+            "name": "PubChemQC B3LYP/6-31G*//PM6",
+            "full_name": "",
+            "description": " A collection of electronic properties for nearly 86 million molecules, encompassing a broad spectrum of essential compounds and biomolecules with molecular weights up to 1000 ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_pm6_datasets.html"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{nakata2023pubchemqc,\n  title={{PubChemQC} {B3LYP}/6-31{G}*//{PM6} Data Set: The Electronic Structures of 86 Million Molecules Using {B3LYP/6-31G*} Calculations},\n  author={Nakata, Maho and Maeda, Toshiyuki},\n  journal={Journal of Chemical Information and Modeling},\n  volume={63},\n  number={18},\n  pages={5734--5754},\n  year={2023},\n  publisher={ACS Publications}\n}\n"
+            ]
+        },
+        {
+            "name": "PubChemQC Database",
+            "full_name": "",
+            "description": " 3 million molecules optimized for their ground states and over 2 million molecules with low-lying excited states ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "https://nakatamaho.riken.jp/pubchemqc.riken.jp/b3lyp_2017.html"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{nakata2020pubchemqc,\n  title={{PubChemQC PM6}: Data sets of 221 million molecules with optimized molecular geometries and electronic properties},\n  author={Nakata, Maho and Shimazaki, Tomomi and Hashimoto, Masatomo and Maeda, Toshiyuki},\n  journal={Journal of Chemical Information and Modeling},\n  volume={60},\n  number={12},\n  pages={5891--5899},\n  year={2020},\n  publisher={ACS Publications}\n}\n"
+            ]
+        },
+        {
+            "name": "PubChemQC PM6",
+            "full_name": "",
+            "description": " PM6 data for 221 million molecules, including optimized geometries and electronic structures ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "https://nakatamaho.riken.jp/pubchemqc.riken.jp/pm6_datasets.html"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{nakata2020pubchemqc,\n  title={{PubChemQC PM6}: Data sets of 221 million molecules with optimized molecular geometries and electronic properties},\n  author={Nakata, Maho and Shimazaki, Tomomi and Hashimoto, Masatomo and Maeda, Toshiyuki},\n  journal={Journal of Chemical Information and Modeling},\n  volume={60},\n  number={12},\n  pages={5891--5899},\n  year={2020},\n  publisher={ACS Publications}\n}\n"
+            ]
+        },
+        {
+            "name": "QCDGE",
+            "full_name": "",
+            "description": " An extensive collection of ground and excited-state properties for 443,106 organic molecules, each containing up to ten heavy atoms, including carbon, nitrogen, oxygen, and fluorine. These molecules are sourced from well-known databases such as QM9, PubChemQC, and GDB-11. ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "http://langroup.site/QCDGE/"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{zhu2024quantum,\n  title={Quantum Chemistry Dataset with Ground-and Excited-state Properties of 450 Kilo Molecules},\n  author={Zhu, Yifei and Li, Mengge and Xu, Chao and Lan, Zhenggang},\n  journal={Scientific Data},\n  volume={11},\n  number={1},\n  pages={948},\n  year={2024},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "QM1B",
+            "full_name": "",
+            "description": " One billion conformers for molecules with 9-11 heavy atoms ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "GitHub": "https://github.com/graphcore-research/qm1b-dataset"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{mathiasen2024generating,\n  title={Generating {QM1B} with {PySCF}$_\\text{IPU}$},\n  author={Mathiasen, Alexander and Helal, Hatem and Klaser, Kerstin and Balanca, Paul and Dean, Josef and Luschi, Carlo and Beaini, Dominique and Fitzgibbon, Andrew and Masters, Dominic},\n  journal={Advances in Neural Information Processing Systems},\n  volume={36},\n  year={2024}\n}\n"
+            ]
+        },
+        {
+            "name": "QM7",
+            "full_name": "",
+            "description": " Focuses on a subset of 7,165 small organic molecules from the GDB-13 database, providing Coulomb matrices, atomization energies, atomic charge, and Cartesian coordinates ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "http://quantum-machine.org/datasets/"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{rupp2012fast,\n  title={Fast and accurate modeling of molecular atomization energies with machine learning},\n  author={Rupp, Matthias and Tkatchenko, Alexandre and M{\\\"u}ller, Klaus-Robert and Von Lilienfeld, O Anatole},\n  journal={Physical review letters},\n  volume={108},\n  number={5},\n  pages={058301},\n  year={2012},\n  publisher={APS}\n}\n\n"
+            ]
+        },
+        {
+            "name": "QM7-X",
+            "full_name": "",
+            "description": " 4.2 million structures of small organic molecules (containing up to seven non-hydrogen atoms) with a rich set of 42 properties ",
+            "methods":{
+                "geometry_optimization":{
+                    "DFTB3+MBD": "DFTB+"
+                },
+                "energy":{
+                    "PBE0+MBD": "FHI-aims"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 4.2e6
+            },
+            "data_access": {
+                "Zenodo": "https://doi.org/10.5281/zenodo.4288677"
+            },
+            "chemical_elements": ["H","C","N","O","S","Cl"],
+            "number_of_heavy_atoms": [1,"checking required",7],
+            "initial_source": [
+                "GDB-13"
+            ], 
+            "non-equilibrium structures": "True",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": "False",
+            "properties": [
+                "total_energy",
+                "force",
+                "dipole_moment",
+                "quadrupole_moment",
+                "HOMO/LUMO_energy",
+                "HOMO/LUMO_gap",
+                "polarizability"
+                
+            ],
+            "doi": "10.1038/s41597-021-00812-2",
+            "reference": [
+                "@article{hoja2021qm7,\n  title={{QM7-X}, a comprehensive dataset of quantum-mechanical properties spanning the chemical space of small organic molecules},\n  author={Hoja, Johannes and Medrano Sandonas, Leonardo and Ernst, Brian G and Vazquez-Mayagoitia, Alvaro and DiStasio Jr, Robert A and Tkatchenko, Alexandre},\n  journal={Scientific data},\n  volume={8},\n  number={1},\n  pages={43},\n  year={2021},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "QM7b",
+            "full_name": "",
+            "description": " An extension of QM7, providing data on 7,211 small organic molecules including 14 properties such as atomization energy, static polarizability, and frontier orbital eigenvalues, calculated using DFT and other quantum chemistry methods ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "http://stacks.iop.org/NJP/15/095003/mmedia"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{montavon2013machine,\n  title={Machine learning of molecular electronic properties in chemical compound space},\n  author={Montavon, Gr{\\'e}goire and Rupp, Matthias and Gobre, Vivekanand and Vazquez-Mayagoitia, Alvaro and Hansen, Katja and Tkatchenko, Alexandre and M{\\\"u}ller, Klaus-Robert and Von Lilienfeld, O Anatole},\n  journal={New Journal of Physics},\n  volume={15},\n  number={9},\n  pages={095003},\n  year={2013},\n  publisher={IOP Publishing}\n}\n"
+            ]
+        },
+        {
+            "name": "QM8",
+            "full_name": "",
+            "description": " Provides electronic spectra data for approximately 21,786 small organic molecules, derived from QM9, calculated using TD-DFT and other excited-state methods ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "https://pubs.aip.org/jcp/article-supplement/73278/zip/084111_1_supplements/"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{ramakrishnan2015electronic,\n  title={Electronic spectra from TDDFT and machine learning in chemical space},\n  author={Ramakrishnan, Raghunathan and Hartmann, Mia and Tapavicza, Enrico and Von Lilienfeld, O Anatole},\n  journal={The Journal of chemical physics},\n  volume={143},\n  number={8},\n  year={2015},\n  publisher={AIP Publishing}\n}\n"
+            ]
+        },
+        {
+            "name": "QM9",
+            "full_name": "QM9",
+            "description": " A collection of molecular structures and properties for 134,000 small organic molecules ",
+            "methods": {
+                "geometry_optimization":{
+                    "B3LYP/6-31G(2df,p)": "Gaussian 09"
+                },
+                "energy":{
+                    "B3LYP/6-31G(2df,p)": "Gaussian 09",
+                    "G4MP2": "Gaussian 09"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 133885
+            }, 
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.978904"
+            },
+            "chemical_elements": ["H","C","N","O","F"],
+            "number_of_heavy_atoms": ["checking required","checking required",9],
+            "initial_source": [
+                "GDB-17"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": [0],
+            "multiplicities": ["checking reuiqred"],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": 298.15,
+            "properties": [
+                "total_energy",
+                "enthalpy",
+                "entropy",
+                "heat_capacity",
+                "zero_point_energy",
+                "HOMO/LUMO_energy",
+                "HOMO/LUMO_gap",
+                "atomization_free_energy",
+                "harmonic_frequency", 
+                "dipole_moments", 
+                "polarizability"
+            ],
+            "doi": "10.1038/sdata.2014.22",
+            "reference": [
+                "@article{ramakrishnan2014quantum,\n  title={Quantum chemistry structures and properties of 134 kilo molecules},\n  author={Ramakrishnan, Raghunathan and Dral, Pavlo O and Rupp, Matthias and Von Lilienfeld, O Anatole},\n  journal={Scientific data},\n  volume={1},\n  number={1},\n  pages={1--7},\n  year={2014},\n  publisher={Nature Publishing Group}\n}\n\n"
+            ]
+        },
+        {
+            "name": "QM9-G4MP2",
+            "full_name": "QM9-G4MP2",
+            "description": " Provides highly accurate G4MP2 calculations for the molecular structures within QM9 ",
+            "methods": {
+                "geometry_optimization":{
+                    "B3LYP/6-31g(2df,p)": "Gaussian 16"
+                },
+                "energy":{
+                    "G4MP2": "Gaussian 16",
+                    "B3LYP/6-31g(2df,p)": "Gaussian 16",
+                    "HF/6-31g(d)": "Gaussian 16",
+                    "MP2/6-31g(d)": "Gaussian 16",
+                    "MP3/6-31g(d)": "Gaussian 16",
+                    "MP4D/6-31g(d)": "Gaussian 16",
+                    "MP4DQ/6-31g(d)": "Gaussian 16",
+                    "MP4SDTQ/6-31g(d)": "Gaussian 16",
+                    "MP4SDQ/6-31g(d)": "Gaussian 16",
+                    "CCSD/6-31g(d)": "Gaussian 16",
+                    "CCSD(T)/6-31g(d)": "Gaussian 16",
+                    "HF/G3MP2largeXP": "Gaussian 16",
+                    "MP2/G3MP2largeXP": "Gaussian 16",
+                    "HF/mod-aug-cc-pVTZ": "Gaussian 16",
+                    "HF/mod-aug-cc-pvQZ": "Gaussian 16"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 133858
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.c.4351631.v1"
+            },
+            "chemical_elements": ["H","C","N","O","F"],
+            "number_of_heavy_atoms": ["checking required","checking required",9],
+            "initial_source": [
+                "QM9"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": [0],
+            "multiplicities": ["checking required"],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "temperature": 298.15,
+            "properties": [
+                "total_energy",
+                "zero_point_energy",
+                "Gibbs_free_energy",
+                "enthalpy"
+            ],
+            "doi": "10.1038/s41597-019-0121-7",
+            "reference": [
+                "@article{kim2019energy,\n  title={Energy refinement and analysis of structures in the QM9 database via a highly accurate quantum chemical method},\n  author={Kim, Hyungjun and Park, Ji Young and Choi, Sunghwan},\n  journal={Scientific data},\n  volume={6},\n  number={1},\n  pages={109},\n  year={2019},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "QM-sym",
+            "description": " 135,000 structures with C$_{n\\text{h}}$ symmetry ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "GitHub": "https://github.com/XI-Lab/QM-sym-database",
+                "Figshare": "https://doi.org/10.6084/m9.Figshare.9638093"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{liang2019qm,\n  title={QM-sym, a symmetrized quantum chemistry database of 135 kilo molecules},\n  author={Liang, Jiechun and Xu, Yanheng and Liu, Rulin and Zhu, Xi},\n  journal={Scientific Data},\n  volume={6},\n  number={1},\n  pages={213},\n  year={2019},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "QM-symex",
+            "full_name": "",
+            "description": " The QM-sym data set has been expanded to include an additional 38,000 molecules, providing valuable information on excited-state properties at TD-B3LYP/6-31G//B3LYP/6-31G(2df,p); Gaussian 09 ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.Figshare.12815276"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{liang2020qm,\n  title={QM-symex, update of the QM-sym database with excited state information for 173 kilo molecules},\n  author={Liang, Jiechun and Ye, Shuqian and Dai, Tianshu and Zha, Ziyue and Gao, Yuechen and Zhu, Xi},\n  journal={Scientific Data},\n  volume={7},\n  number={1},\n  pages={400},\n  year={2020},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "QM-22",
+            "full_name": "",
+            "description": " A compilation of molecular data sets specifically curated for DMC calculations of the zero-point state ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "GitHub": "https://github.com/jmbowma/QM-22"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{bowman2022md17,\n  title={The {MD17} datasets from the perspective of datasets for gas-phase \u201csmall\u201d molecule potentials},\n  author={Bowman, Joel M and Qu, Chen and Conte, Riccardo and Nandi, Apurba and Houston, Paul L and Yu, Qi},\n  journal={The Journal of chemical physics},\n  volume={156},\n  number={24},\n  year={2022},\n  publisher={AIP Publishing}\n}\n"
+            ]
+        },
+        {
+            "name": "QMugs",
+            "full_name": "",
+            "description": " Quantum-mechanical properties of over 665,000 drug-like molecules extracted from the ChEMBL database ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "https://doi.org/10.3929/ethz-b-000482129"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{isert2022qmugs,\n  title={QMugs, quantum mechanical properties of drug-like molecules},\n  author={Isert, Clemens and Atz, Kenneth and Jim{\\'e}nez-Luna, Jos{\\'e} and Schneider, Gisbert},\n  journal={Scientific Data},\n  volume={9},\n  number={1},\n  pages={273},\n  year={2022},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "SPICE",
+            "full_name": "",
+            "description": " 2,008,628 conformations of 113,999 drug-like small molecules and proteins ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Zenodo": "https://doi.org/10.5281/zenodo.7338495",
+                "GitHub": "https://github.com/openmm/spice-dataset"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{eastman2023spice,\n  title={Spice, a dataset of drug-like molecules and peptides for training machine learning potentials},\n  author={Eastman, Peter and Behara, Pavan Kumar and Dotson, David L and Galvelis, Raimondas and Herr, John E and Horton, Josh T and Mao, Yuezhi and Chodera, John D and Pritchard, Benjamin P and Wang, Yuanqing and others},\n  journal={Scientific Data},\n  volume={10},\n  number={1},\n  pages={11},\n  year={2023},\n  publisher={Nature Publishing Group UK London}\n}\n",
+                "@article{eastman2024spice,\n  title={Nutmeg and {SPICE}: Models and Data for Biomolecular Machine Learning},\n  author={Eastman, Peter and Pritchard, Benjamin P and Chodera, John D and Markland, Thomas E},\n  journal={arXiv preprint  arXiv:2406.13112v1},\n  year={2024}\n}\n"
+            ]
+        },
+        {
+            "name": "TensorMol ChemSpider",
+            "full_name": "",
+            "description": " 3 million conformations from 15k different molecules, sourced from the ChemSpider database  ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Link": "https://drive.google.com/drive/folders/1IfWPs7i5kfmErIRyuhGv95dSVtNFo0e_"
+            },
+            "chemical_elements": ["H","C","N","O"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "total_energy",
+                "force"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{yao2018tensormol,\n  title={The TensorMol-0.1 model chemistry: a neural network augmented with long-range physics},\n  author={Yao, Kun and Herr, John E and Toth, David W and Mckintyre, Ryker and Parkhill, John},\n  journal={Chemical science},\n  volume={9},\n  number={8},\n  pages={2261--2269},\n  year={2018},\n  publisher={Royal Society of Chemistry}\n}\n"
+            ]
+        },
+        {
+            "name": "Transition1x",
+            "full_name": "",
+            "description": "  9.6 million data points, each meticulously generated using DFT calculations with forces and energies for a staggering 10,000 organic reactions ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.19614657.v4",
+                "GitLab": "https://gitlab.com/matschreiner/T1x"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{schreiner2022transition1x,\n  title={Transition1x-a dataset for building generalizable reactive machine learning potentials},\n  author={Schreiner, Mathias and Bhowmik, Arghya and Vegge, Tejs and Busk, Jonas and Winther, Ole},\n  journal={Scientific Data},\n  volume={9},\n  number={1},\n  pages={779},\n  year={2022},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "VIB5",
+            "full_name": "",
+            "description": " Ab initio quantum chemical data for five small polyatomic molecules with significant astrophysical relevance ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Figshare": "https://doi.org/10.6084/m9.figshare.16903288"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{zhang2022vib5,\n  title={VIB5 database with accurate ab initio quantum chemical molecular potential energy surfaces},\n  author={Zhang, Lina and Zhang, Shuang and Owens, Alec and Yurchenko, Sergei N and Dral, Pavlo O},\n  journal={Scientific Data},\n  volume={9},\n  number={1},\n  pages={84},\n  year={2022},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "VQM24",
+            "full_name": "",
+            "description": " Providing QM properties of 258,242 unique constitutional isomers and 577,705 conformers of varying stoichiometries, focusing on molecules composed of up to five heavy atoms from C, N, O, F, Si, P, S, Cl, Br ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "Zenodo": "https://doi.org/10.5281/zenodo.11164951"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{khan2024towards,\n  title={Towards comprehensive coverage of chemical space: Quantum mechanical properties of 836k constitutional and conformational closed shell neutral isomers consisting of HCNOFSiPSClBr},\n  author={Khan, Danish and Benali, Anouar and Kim, Scott YH and von Rudorff, Guido Falk and von Lilienfeld, O Anatole},\n  journal={arXiv preprint arXiv:2405.05961},\n  year={2024}\n}\n"
+            ]
+        },
+        {
+            "name": "WS22 Database",
+            "full_name": "",
+            "description": " 1.18 million molecular geometries (equilibrium and non-equilibrium) for ten organic molecules containing up to 22 atoms ",
+            "methods":{
+                "geometry_optimization":{
+                    "PBE0/6-3111G(d)":"Gaussian 09"
+                },
+                "energy":{
+                    "PBE0/6-3111G(d)": "Gaussian 09",
+                    "TDPBE0/6-3111G(d)": "Gaussian 09"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": 1.18e6
+            },
+            "data_access": {
+                "Zenodo": "https://doi.org/10.5281/zenodo.7032334"
+            },
+            "chemical_elements": ["H","C","N","O"],
+            "number_of_heavy_atoms": [4,"checking required",14],
+            "initial_source": [], 
+            "non-equilibrium structures": "True",
+            "charges": [0],
+            "multiplicities": [1],
+            "excited_states": "True",
+            "solvent": ["gas_phase"],
+            "temperature": 298.15,
+            "properties": [
+                "total_energy",
+                "force",
+                "dipole_moment",
+                "polarizability",
+                "HOMO/LUMO_energy"
+            ],
+            "doi": "10.1038/s41597-023-01998-3",
+            "reference": [
+                "@article{pinheiro2023ws22,\n  title={WS22 database, Wigner Sampling and geometry interpolation for configurationally diverse molecular datasets},\n  author={Pinheiro Jr, Max and Zhang, Shuang and Dral, Pavlo O and Barbatti, Mario},\n  journal={Scientific Data},\n  volume={10},\n  number={1},\n  pages={95},\n  year={2023},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "xxMD",
+            "full_name": "",
+            "description": " Excited-state molecular dynamics  data set for four molecular systems chosen for their photochemical activity: azobenzene, malonaldehyde, stilbene, and dithiophene ",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "GitHub": "https://github.com/zpengmei/xxMD",
+                "Zenodo": "https://doi.org/10.5281/zenodo.10393859"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference": [
+                "@article{pengmei2024beyond,\n  title={Beyond {MD17}: the reactive {xxMD} dataset},\n  author={Pengmei, Zihan and Liu, Junyu and Shu, Yinan},\n  journal={Scientific Data},\n  volume={11},\n  number={1},\n  pages={222},\n  year={2024},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "CREMP",
+            "full_name": "Conformer-Rotamer Ensembles of Macrocyclic Peptides",
+            "description": "Macrocyclic peptides data set containing 4-, 5-, and 6-mer homodetic cyclic peptides.",
+            "methods":{
+                "geometry_optimization":{
+                    "GFN2-xTB": "xTB"
+                },
+                "energy":{
+                    "GFN2-xTB": "xTB"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 3.13e7
+            },
+            "data_access": {
+                "GitHub": "https://github.com/Genentech/cremp",
+                "Zenodo": "https://doi.org/10.5281/zenodo.7931444"
+            },
+            "chemical_elements": ["H","C","N","O","S"],
+            "number_of_heavy_atoms": [16,38,74],
+            "initial_source": ["literature"], 
+            "non-equilibrium structures": "False",
+            "charges": [0],
+            "multiplicities": [1],
+            "excited_states": "False",
+            "solvent": ["chloroform"],
+            "properties": [
+                "total_energy"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{grambow2024cremp,\n  title={CREMP: Conformer-rotamer ensembles of macrocyclic peptides for machine learning},\n  author={Grambow, Colin A and Weir, Hayley and Cunningham, Christian N and Biancalani, Tommaso and Chuang, Kangway V},\n  journal={Scientific Data},\n  volume={11},\n  number={1},\n  pages={859},\n  year={2024},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "CREMP-CycPeptMPDB",
+            "full_name": "Conformer-Rotamer Ensembles of Macrocyclic Peptides-CycPeptMPDB",
+            "description": "Macrocyclic peptides data set containing 6-, 7-, and 10-mer cyclic peptides.",
+            "methods":{
+                "geometry_optimization":{
+                    "GFN2-xTB": "xTB"
+                },
+                "energy":{
+                    "GFN2-xTB": "xTB"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 3.7e6
+            },
+            "data_access": {
+                "Zenodo": "https://doi.org/10.5281/zenodo.10798261"
+            },
+            "chemical_elements": ["H","C","N","O","S","F","Cl"],
+            "number_of_heavy_atoms": [32,56,86],
+            "initial_source": ["CycPeptMPDB"], 
+            "non-equilibrium structures": "False",
+            "charges": [0],
+            "multiplicities": ["checking required"],
+            "excited_states": "False",
+            "solvent": ["chloroform"],
+            "properties": [
+                "total_energy"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{grambow2024cremp,\n  title={CREMP: Conformer-rotamer ensembles of macrocyclic peptides for machine learning},\n  author={Grambow, Colin A and Weir, Hayley and Cunningham, Christian N and Biancalani, Tommaso and Chuang, Kangway V},\n  journal={Scientific Data},\n  volume={11},\n  number={1},\n  pages={859},\n  year={2024},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "GEOM",
+            "full_name": "Geometric Ensemble Of Molecules",
+            "description": "Conformers for mid-sized organic molecules from QM9 and experimental datasets related to physical chemistry, biophysics, and physiology.",
+            "methods":{
+                "geometry_optimization":{
+                    "GFN2-xTB": "xTB",
+                    "r2scan-3c/mTZVPP": "ORCA 5.0.1"
+                },
+                "energy":{
+                    "GFN2-xTB": "xTB",
+                    "r2scan-3c/mTZVPP": "ORCA 5.0.1"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 3.7e7
+            },
+            "data_access": {
+                "GitHub": "https://github.com/learningmatter-mit/geom"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required", 25, 91],
+            "initial_source": [
+                "AICures",
+                "MoleculeNet",
+                "QM9"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["gas_phase", "water"],
+            "properties": [
+                "total_energy"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{axelrod2022geom,\n  title={GEOM, energy-annotated molecular conformations for property prediction and molecular generation},\n  author={Axelrod, Simon and Gomez-Bombarelli, Rafael},\n  journal={Scientific Data},\n  volume={9},\n  number={1},\n  pages={185},\n  year={2022},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "tmQM",
+            "full_name": "transition metal quantum mechanics dataset",
+            "description": "Mononuclear transition metal-organic compond complexes datasets consisting 30 transition metals in 3d, 4d, and 5d from groups 3 to 12",
+            "methods":{
+                "geometry_optimization":{
+                    "GFN2-xTB": "xTB"
+                },
+                "energy":{
+                    "TPSSh-D3BJ/def2-SVP": "Gaussian 16"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 86699
+            },
+            "data_access": {
+                "GitHub": "https://github.com/bbskjelstad/tmqm",
+                "Link": "http://quantum-machine.org/datasets/"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required"],
+            "initial_source": [
+                "Cambridge Structural Database"
+            ], 
+            "non-equilibrium structures": "False",
+            "charges": [-1,0,1],
+            "multiplicities": [1],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "properties": [
+                "total_energy",
+                "dispersion_energy",
+                "metal_center_natural_charge", 
+                "HOMO/LUMO_energy",
+                "HOMO/LUMO_gap",
+                "dipole_moment",
+                "polarizability"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{balcells2020tmqm,\n  title={tmQM dataset—quantum geometries and properties of 86k transition metal complexes},\n  author={Balcells, David and Skjelstad, Bastian Bjerkem},\n  journal={Journal of chemical information and modeling},\n  volume={60},\n  number={12},\n  pages={6135--6146},\n  year={2020},\n  publisher={ACS Publications}\n}\n"
+            ]
+        },
+        {
+            "name": "COMPAS-1",
+            "full_name": "COMputational database of Polycyclic Aromatic Systems-1",
+            "description": "Part of the COMPAS project containing cata-condensed polybenzenoid hydrocarbons and various QM properties",
+            "methods":{
+                "geometry_optimization":{
+                    "GFN2-xTB": "xTB",
+                    "B3LYP-D3(BJ)/def2-SVP": "ORCA 4.2.0" 
+                },
+                "energy":{
+                    "GFN2-xTB": "xTB", 
+                    "B3LYP-D3(BJ)/def2-SVP": "ORCA 4.2.0"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 34072
+            },
+            "data_access": {
+                "GitLab": "https://gitlab.com/porannegroup/compas"
+            },
+            "chemical_elements": ["H","C"],
+            "number_of_heavy_atoms": [6,45,46],
+            "initial_source": [], 
+            "non-equilibrium structures": "False",
+            "charges": [-1,0,1],
+            "multiplicities": [1,2],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "properties": [
+                "total_energy",
+                "dispersion_energy",
+                "HOMO/LUMO_energy",
+                "HOMO/LUMO_gap",
+                "dipole_moment",
+                "zero_point_energy",
+                "adiabatic_ionization_potential",
+                "adiabatic_electron_affinity"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{wahab2022compas,\n  title={The compas project: A computational database of polycyclic aromatic systems. phase 1: cata-condensed polybenzenoid hydrocarbons},\n  author={Wahab, Alexandra and Pfuderer, Lara and Paenurk, Eno and Gershoni-Poranne, Renana},\n  journal={Journal of Chemical Information and Modeling},\n  volume={62},\n  number={16},\n  pages={3704--3713},\n  year={2022},\n  publisher={ACS Publications}\n}\n"
+            ]
+        },
+        {
+            "name": "COMPAS-2",
+            "full_name": "COMputational database of Polycyclic Aromatic Systems-2",
+            "description": "Part of the COMPAS project containing cata-condensed poly(hetero)cyclic aromatic molecules and various QM properties",
+            "methods":{
+                "geometry_optimization":{
+                    "GFN1-xTB": "xTB",
+                    "CAM-B3LYP-D3(BJ)/def2-SVP": "ORCA 4.2.0" 
+                },
+                "energy":{
+                    "GFN1-xTB": "xTB",
+                    "CAM-B3LYP-D3(BJ)/def2-SVP": "ORCA 4.2.0" 
+                }
+            },
+            "data_size": {
+                "number_of_structures": 524392
+            },
+            "data_access": {
+                "GitLab": "https://gitlab.com/porannegroup/compas",
+                "Figshare": "https://doi.org/10.6084/m9.figshare.24347152",
+                "Link": "https://compas.net.technion.ac.il/"
+            },
+            "chemical_elements": ["H","B","C","N","O","S"],
+            "number_of_heavy_atoms": ["checking required"],
+            "initial_source": [], 
+            "non-equilibrium structures": "False",
+            "charges": [-1,0,1],
+            "multiplicities": [1,2],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "properties": [
+                "total_energy",
+                "dispersion_energy",
+                "HOMO/LUMO_energy",
+                "HOMO/LUMO_gap",
+                "zero_point_energy",
+                "adiabatic_ionization_potential",
+                "adiabatic_electron_affinity"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{mayo2024compas,\n  title={COMPAS-2: a dataset of cata-condensed hetero-polycyclic aromatic systems},\n  author={Mayo Yanes, Eduardo and Chakraborty, Sabyasachi and Gershoni-Poranne, Renana},\n  journal={Scientific Data},\n  volume={11},\n  number={1},\n  pages={97},\n  year={2024},\n  publisher={Nature Publishing Group UK London}\n}\n"
+            ]
+        },
+        {
+            "name": "COMPAS-3",
+            "full_name": "COMputational database of Polycyclic Aromatic Systems-3",
+            "description": "Part of the COMPAS project containing peri-condensed polybenzenoid hydrocarbons",
+            "methods":{
+                "geometry_optimization":{
+                    "GFN2-xTB": "xTB",
+                    "CAM-B3LYP-D3BJ/def2-SVP": "ORCA 4.2.0"
+                },
+                "energy":{
+                    "GFN2-xTB": "xTB",
+                    "CAM-B3LYP-D3BJ/aug-cc-pVDZ": "ORCA 4.2.0"
+                }
+            },
+            "data_size": {
+                "number_of_structures": 39482
+            },
+            "data_access": {
+                "GitLab": "https://gitlab.com/porannegroup/compas"
+            },
+            "chemical_elements": ["H","C"],
+            "number_of_heavy_atoms": [16,42,44],
+            "initial_source": [], 
+            "non-equilibrium structures": "False",
+            "charges": [-1,0,1],
+            "multiplicities": [1,2],
+            "excited_states": "False",
+            "solvent": ["gas_phase"],
+            "properties": [
+                "total_energy",
+                "dispersion_energy",
+                "HOMO/LUMO_energy",
+                "HOMO/LUMO_gap",
+                "dipole_moment",
+                "zero_point_energy",
+                "adiabatic_ionization_potential",
+                "adiabatic_electron_affinity"
+            ],
+            "doi":"checking required",
+            "reference":[
+                "@article{wahab2024compas,\n  title={COMPAS-3: a dataset of peri-condensed polybenzenoid hydrocarbons},\n  author={Wahab, Alexandra and Gershoni-Poranne, Renana},\n  journal={Physical Chemistry Chemical Physics},\n  volume={26},\n  number={21},\n  pages={15344--15357},\n  year={2024},\n  publisher={Royal Society of Chemistry}\n}\n"
+            ]
+        },
+        {
+            "name": "OFF-ON dataset",
+            "full_name": "",
+            "description": "",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "checking required":"checking required"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference":[
+                "checking required"
+            ]
+        },
+        {
+            "name": "revQM9",
+            "full_name": "",
+            "description": "",
+            "methods":{
+                "geometry_optimization":{
+                    "checking required":"checking required"
+                },
+                "energy":{
+                    "checking required":"checking required"   
+                }
+            },
+            "data_size": { 
+                "number_of_structures": "checking required"
+            },
+            "data_access": {
+                "checking required":"checking required"
+            },
+            "chemical_elements": ["checking required"],
+            "number_of_heavy_atoms": ["checking required","checking required","checking required"],
+            "initial_source": [
+                "checking required"
+            ], 
+            "non-equilibrium structures": "checking required",
+            "charges": ["checking required"],
+            "multiplicities": ["checking required"],
+            "excited_states": "checking required",
+            "solvent": ["checking required"],
+            "temperature": "checking required",
+            "properties": [
+                "checking required"
+            ],
+            "doi": "checking required",
+            "reference":[
+                "checking required"
+            ]
+        }
+    ]
+}
