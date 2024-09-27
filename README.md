@@ -77,7 +77,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 ## 11. OFF-ON Dataset
 - **Description**: The OFF-ON database contains 75,326 organic molecules (7,869 equilibrium, 67,457 non-equilibrium) for training ML models on functional organic molecules (e.g., photoswitchable catalysts). It was generated using molecular databases (OSCAR, CSD, PubChem) and MD simulations. DFTB calculations were used for baseline energy calculations, normalized using multilinear regression. Reference energies were computed using PBE0-D3/def2-SVP. DFTB+ was utilized forDFTB calculations and PBE0-D3/def2-SVP calculations was performed with TeraChem. 
 - **Data Accessibility**:
-  - [Materials Studio](https://archive.materialscloud.org/record/ 2023.189)
+  - [Materials Studio](https://archive.materialscloud.org/record/2023.189)
 
 ## 12. OrbNet Denali
 - **Description**: Data set used to develop a machine learning potential for electronic structure calculations, includes over 2.3 million molecules, calculated using various levels of theory including GFN1-xTB, AIMD and $\omega$ B97X-D3/def2-TZVP with a list of softwares including ENTOS BREEZE, DIMORPHITE-DL and ENTOS QCORE.
