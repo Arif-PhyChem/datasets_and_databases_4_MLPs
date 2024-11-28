@@ -238,9 +238,15 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 - **Data Access**:
   - [GitHub Repository](https://github.com/zpengmei/xxMD)
   - [Zenodo Repository](https://doi.org/10.5281/zenodo.10393859)
+
+## New Updates
+1. QM9star, two Million DFT-computed Equilibrium Structures for Ions and Radicals with Atomic Information https://doi.org/10.1038/s41597-024-03933-6
    
 ## Contributions
 
 We welcome contributions! If you have new data sets or databases to add or updates to existing ones, please submit a pull request.
+
+
+
 
 
