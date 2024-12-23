@@ -242,6 +242,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 ## New Updates
 1. QM9star, two Million DFT-computed Equilibrium Structures for Ions and Radicals with Atomic Information https://doi.org/10.1038/s41597-024-03933-6
 2. An Open Quantum Chemistry Property Database of 120 Kilo Molecules with 20 Million Conformers https://doi.org/10.48550/arXiv.2410.19316
+3. QM40, Realistic Quantum Mechanical Dataset for Machine Learning in Molecular Science, https://doi.org/10.1038/s41597-024-04206-y
    
 ## Contributions
 
