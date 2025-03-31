@@ -1,6 +1,6 @@
 # Molecular Quantum Chemical Data Sets and Databases for Machine Learning Potentials
 
-This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://doi.org/10.1088/2632-2153/ad8f13 . Here in this dashboard, we follow alphabetical order. 
+This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://doi.org/10.1088/2632-2153/ad8f13 . Here in this dashboard, we follow alphabetical order. (New updates to the Repo can be found here and 
 
 ## 1. AIMEl-DB Dataset
 - **Description**: AIMEl-DB provides atomic properties (e.g., energy, dipole, quadrupole) for 44,000 molecules randomly selected from QM9. These properties are calculated using DFT at the B3LYP/6-31G(2df,p) level with Gaussian 16 and AIMAll.
@@ -28,9 +28,6 @@ This GitHub dashboard provides links and brief descriptions for various quantum 
 - **Description**: The ANI-2x dataset (8.9 million molecules) is used to train the ANI-2x ML model. It includes 7 elements (H, C, N, O, S, F, Cl), improving on ANI-1x (4 elements). ANI-2x uses S66x8 for better non-bonded interactions and a new sampling technique for bulk water. It's based on GDB-11, ChEMBL, S66x8, amino acids, and dipeptides. Active learning generates non-equilibrium geometries, refined for torsion, non-bonded interactions, and bulk water. Energies and forces are calculated using $\omega$B97X/6-31G* with Gaussian 09.
 - **Data Accessibility**:
   - [Zenodo](https://doi.org/10.5281/zenodo.10108942)
-
-
-## 6. ANI-1xBB
 
 ## 6. bigQM7ω
 - **Description**: Ground-state properties and electronic spectra for over 12,880 molecules calculated using DFT and TDDFT with various functionals and basis sets, using the Gaussian software.
@@ -242,10 +239,11 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
   - [GitHub Repository](https://github.com/zpengmei/xxMD)
   - [Zenodo Repository](https://doi.org/10.5281/zenodo.10393859)
 
-## New Updates
+## New Updates <a name="New Updates"></a>
 1. QM9star, two Million DFT-computed Equilibrium Structures for Ions and Radicals with Atomic Information https://doi.org/10.1038/s41597-024-03933-6
 2. An Open Quantum Chemistry Property Database of 120 Kilo Molecules with 20 Million Conformers https://doi.org/10.48550/arXiv.2410.19316
 3. QM40, Realistic Quantum Mechanical Dataset for Machine Learning in Molecular Science, https://doi.org/10.1038/s41597-024-04206-y
+4. ANI-1xBB, an ANI based reactive potential, https://doi.org/10.26434/chemrxiv-2025-m2nqq
    
 ## Contributions
 
