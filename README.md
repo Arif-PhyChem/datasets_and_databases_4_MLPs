@@ -1,6 +1,6 @@
 # Molecular Quantum Chemical Data Sets and Databases for Machine Learning Potentials
 
-This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://doi.org/10.1088/2632-2153/ad8f13 . Here in this dashboard, we follow alphabetical order. (New updates to the Repo can be found here and 
+This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://doi.org/10.1088/2632-2153/ad8f13 . Here in this dashboard, we follow alphabetical order. (New updates to the Repo can be found here [New Updates](#new_updates) 
 
 ## 1. AIMEl-DB Dataset
 - **Description**: AIMEl-DB provides atomic properties (e.g., energy, dipole, quadrupole) for 44,000 molecules randomly selected from QM9. These properties are calculated using DFT at the B3LYP/6-31G(2df,p) level with Gaussian 16 and AIMAll.
@@ -239,7 +239,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
   - [GitHub Repository](https://github.com/zpengmei/xxMD)
   - [Zenodo Repository](https://doi.org/10.5281/zenodo.10393859)
 
-## New Updates <a name="New Updates"></a>
+## New Updates <a name="new_updates"></a>
 1. QM9star, two Million DFT-computed Equilibrium Structures for Ions and Radicals with Atomic Information https://doi.org/10.1038/s41597-024-03933-6
 2. An Open Quantum Chemistry Property Database of 120 Kilo Molecules with 20 Million Conformers https://doi.org/10.48550/arXiv.2410.19316
 3. QM40, Realistic Quantum Mechanical Dataset for Machine Learning in Molecular Science, https://doi.org/10.1038/s41597-024-04206-y
