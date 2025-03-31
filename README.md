@@ -2,12 +2,12 @@
 
 This GitHub dashboard provides links and brief descriptions for various quantum chemistry data sets and databases mentioned in our review paper https://doi.org/10.1088/2632-2153/ad8f13 . Here in this dashboard, we follow alphabetical order. 
 
-1) ## 1) AIMEl-DB Dataset
+## 1. AIMEl-DB Dataset
 - **Description**: AIMEl-DB provides atomic properties (e.g., energy, dipole, quadrupole) for 44,000 molecules randomly selected from QM9. These properties are calculated using DFT at the B3LYP/6-31G(2df,p) level with Gaussian 16 and AIMAll.
 - **Data Accessibility**:
   - [Zendodo](https://zenodo.org/records/11406726)
 
-2) ## 2) Alchemy Dataset
+## 2. Alchemy Dataset
 - **Description**: The Alchemy dataset contains 12 quantum mechanical properties for 119,487 organic molecules (up to 14 heavy atoms) from GDB-17. DFT calculations (B3LYP/6-31G(2df,p)) using PySCF provide data on molecular geometries, electronic, and thermochemical properties.
 - **Data Accessibility**:
   - [GitHub](https://github.com/tencent-alchemy/Alchemy)
