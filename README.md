@@ -244,6 +244,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 2. An Open Quantum Chemistry Property Database of 120 Kilo Molecules with 20 Million Conformers https://doi.org/10.48550/arXiv.2410.19316
 3. QM40, Realistic Quantum Mechanical Dataset for Machine Learning in Molecular Science, https://doi.org/10.1038/s41597-024-04206-y
 4. ANI-1xBB, an ANI based reactive potential, https://doi.org/10.26434/chemrxiv-2025-m2nqq
+5. The Open Molecules 2025 (OMol25) Dataset, Evaluations, and Models https://arxiv.org/abs/2505.08762
    
 ## Contributions
 
