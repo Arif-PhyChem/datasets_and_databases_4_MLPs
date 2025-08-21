@@ -245,6 +245,8 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 3. QM40, Realistic Quantum Mechanical Dataset for Machine Learning in Molecular Science, https://doi.org/10.1038/s41597-024-04206-y
 4. ANI-1xBB, an ANI based reactive potential, https://doi.org/10.26434/chemrxiv-2025-m2nqq
 5. The Open Molecules 2025 (OMol25) Dataset, Evaluations, and Models https://arxiv.org/abs/2505.08762
+6. Curth, R., Röhrkasten, T.E., Müller, C. et al. Surface Hopping Nested Instances Training Set for Excited-state Learning. Sci Data 12, 1300 (2025). https://doi.org/10.1038/s41597-025-05443-5
+7. Petersen, M.H., Chang, J.H., Bhowmik, A. et al. Dataset exploring the atomic scale structure and ionic dynamics of polyanion sodium cathode materials. Sci Data 12, 1440 (2025). https://doi.org/10.1038/s41597-025-05799-8
    
 ## Contributions
 
