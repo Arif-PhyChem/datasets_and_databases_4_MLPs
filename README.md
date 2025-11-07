@@ -251,7 +251,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 9. S. A. Lopez, E. O. Pyzer-Knapp, G. N. Simm, T. Lutzow, K. Li, L. R. Seress, J. Hachmann and A. Aspuru-Guzik, The Harvard Organic Photovoltaic Dataset, Sci. Data, 2016, 3(1), 160086 https://doi.org/10.1038/sdata.2016.86 (Harvard Organic Photovoltaic dataset (HOPV15) compiles experimental photovoltaic measurements and corresponding QM calculations for organic solar-cell molecules: From  https://doi.org/10.1039/D5SC04079E)
 10. X. Li, P. M. Maffettone, Y. Che, T. Liu, L. Chen and A. I. Cooper, Combining Machine Learning and High-Throughput Experimentation to Discover Photocatalytically Active Organic Molecules, Chem. Sci., 2021, ()12(32), 10742–10754 https://doi.org/10.1039/D1SC02150H ( a study on photocatalytic hydrogen evolution used a 572-molecule experimental library combined with QM calculations and ML to predict activity: From https://doi.org/10.1039/D5SC04079E)
 11. V. Bhat, P. Sornberger, B. S. S. Pokuri, R. Duke, B. Ganapathysubramanian and C. Risko, Electronic, Redox, and Optical Property Prediction of Organic π-Conjugated Molecules through a Hierarchy of Machine Learning Approaches, Chem. Sci., 2022, 14(1), 203–213 (a curated 25-k-molecule dataset combining DFT and TDDFT properties demonstrated the power of graph neural networks in electronic-property prediction: From https://doi.org/10.1039/D5SC04079E)
-   
+12. Li etal. MDCD20, a curated dataset of ~1.4 million H/C/N/O structures with radical species covered https://doi.org/10.26434/chemrxiv-2025-sm7f3
 ## Contributions
 
 We welcome contributions! If you have new data sets or databases to add or updates to existing ones, please submit a pull request.
