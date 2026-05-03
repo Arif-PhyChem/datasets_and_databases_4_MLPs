@@ -253,6 +253,7 @@ Scheffler (TS) van der Waals correction method) with FHI-aims software.
 11. V. Bhat, P. Sornberger, B. S. S. Pokuri, R. Duke, B. Ganapathysubramanian and C. Risko, Electronic, Redox, and Optical Property Prediction of Organic π-Conjugated Molecules through a Hierarchy of Machine Learning Approaches, Chem. Sci., 2022, 14(1), 203–213 (a curated 25-k-molecule dataset combining DFT and TDDFT properties demonstrated the power of graph neural networks in electronic-property prediction: From https://doi.org/10.1039/D5SC04079E)
 12. MDCD20, a curated dataset of ~1.4 million H/C/N/O structures with radical species covered https://doi.org/10.26434/chemrxiv-2025-sm7f3
 13. HORM,  a Large Scale Molecular Hessian Database for Optimizing Reactive Machine Learning Interatomic Potentials,  https://doi.org/10.1038/s41597-025-06350-5
+14. The Open Molecules 2025 (OMol25) Dataset, Evaluations, and Models https://doi.org/10.48550/arXiv.2505.08762
 ## Contributions
 
 We welcome contributions! If you have new data sets or databases to add or updates to existing ones, please submit a pull request.
